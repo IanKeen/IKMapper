@@ -3,6 +3,7 @@
 
 target 'IKMapper' do
     pod 'IKCore', '~> 1.0'
+    pod 'ISO8601'
 end
 
 target 'IKMapperTests' do

@@ -1,10 +1,13 @@
 PODS:
   - IKCore (1.2)
+  - ISO8601 (0.3.0)
 
 DEPENDENCIES:
   - IKCore (~> 1.0)
+  - ISO8601
 
 SPEC CHECKSUMS:
   IKCore: adac0c5630064e08d6ed9b12f5a3bd9fb9ab870f
+  ISO8601: 8d8a22d5edf0554a1cf75bac028c76c1dc0ffaef
 
-COCOAPODS: 0.37.1
+COCOAPODS: 0.38.2

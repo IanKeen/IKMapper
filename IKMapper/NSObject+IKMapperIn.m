@@ -13,6 +13,7 @@
 #import <IKCore/NSObject+Null.h>
 #import "IKMapperProtocols.h"
 #import "IKMapper+Helpers.h"
+#import <ISO8601/ISO8601.h>
 
 @implementation NSObject (IKMapperIn)
 +(instancetype)instanceFromDictionary:(NSDictionary *)dictionary {
@@ -94,6 +95,16 @@
                    [valueClass isEqualToString:NSStringFromClass([NSString class])]) {
             /* NSString -> NSNumber */
             result = [((NSString *)result) toNumber];
+            
+        } else if ([propertyClass isEqualToString:NSStringFromClass([NSDate class])]) {
+            if ([valueClass isEqualToString:NSStringFromClass([NSString class])]) {
+                /* NSString -> NSDate */
+                return [NSDate dateWithISO8601String:value];
+                
+            } else if ([valueClass isEqualToString:NSStringFromClass([NSNumber class])]) {
+                /* NSNumber -> NSDate */
+                return [NSDate dateWithTimeIntervalSince1970:[value integerValue]];
+            }
         }
     }
     

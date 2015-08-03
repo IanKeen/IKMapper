@@ -7,341 +7,398 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0092E993D413907EB69C998D /* NSObject+Null.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F36EBB314E9A6BB7CD15093 /* NSObject+Null.m */; };
-		045D91F6863DE564A6CBCAEA /* NSNumber+DurationString.h in Headers */ = {isa = PBXBuildFile; fileRef = FB82D1D8D0022FC9116A50F6 /* NSNumber+DurationString.h */; };
-		072D34DC5BDC3BC0D0D87EC3 /* NSDate+Shortcuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 834FED3BFD0F151AC0B8F2D8 /* NSDate+Shortcuts.m */; };
-		0900DC923FBA521379B0066B /* NSArray+All.h in Headers */ = {isa = PBXBuildFile; fileRef = 435D94E089773290BDB8CD4F /* NSArray+All.h */; };
-		092E0B93347248D70EA6D7F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63AF80EE47D2DA4A351FA90 /* Foundation.framework */; };
-		0ADC9B9620B902DE490A0B20 /* NSDate+Shortcuts.h in Headers */ = {isa = PBXBuildFile; fileRef = 037FC9DD95EC0213E30AF663 /* NSDate+Shortcuts.h */; };
-		1321388272B22A29B259A2A6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D98C4564E506019C5307740 /* Reachability.m */; };
-		187FCB0C60BD386F3E62A21A /* NSObject+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 8791319956C5BEAF8E69F7BE /* NSObject+Map.m */; };
-		19671E8DE27671502F47DB63 /* NSDate+Building.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDC36242F6D6C713695B506 /* NSDate+Building.h */; };
-		1B0538B4DA5548AC30D4290C /* NSSet+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DCF22E7FAC2FF96D30AB36 /* NSSet+Map.m */; };
-		1EECB96FDC330F50045FB124 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FC0506D037AB5328A433A1 /* Defines.h */; };
-		2AFEFE2D3F70935E29975C37 /* NSObject+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0F4E943DAA39E46C2F1177 /* NSObject+Map.h */; };
-		2D8C61FEDD4EFBFEB8F1569F /* NSError+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = 6018A04DF879821F7C1192F4 /* NSError+Init.m */; };
-		2DB426F20A0B5F9CC82847CA /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB9316EDC1F15FBA1866704 /* NSArray+Map.m */; };
-		328EE0603C2DEEC867473C5A /* NSArray+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6CD365FF76FF1AFE7437E /* NSArray+Group.m */; };
-		380E20BD95E02F628755FCD3 /* MultiSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4237A0FA5E343E2C1DA36 /* MultiSort.m */; };
-		3D933DDBB4FE9525B7BB1AED /* NSDictionary+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1078932EA50EE589E1380917 /* NSDictionary+Filter.m */; };
-		3F2A5AAE36B6383C6BCB261E /* NSArray+Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = D953F675E909BB37A33B94A4 /* NSArray+Filter.h */; };
-		401F3B791B00EDAF30B9555F /* NSJSONSerialization+String.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A50D2407390CD1A8D50D45 /* NSJSONSerialization+String.h */; };
-		4370A8C5F0F9DE7983D30773 /* NSArray+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DBF4769597852E396077AD /* NSArray+Reduce.h */; };
-		44B157EFC7437BA5D95480C9 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 892AEBC1594270D051D16DB3 /* NSArray+Map.h */; };
-		451CE7391BFED52D67AF74D0 /* NSNumber+Times.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8D1152333AA40664A3E879 /* NSNumber+Times.h */; };
-		494270A420D77FA500357CE2 /* NSArray+Unique.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B9AD2A0C60AE50509936D4 /* NSArray+Unique.m */; };
-		4A32D446FF12CD31B942887D /* NSNumber+ReadableDurations.h in Headers */ = {isa = PBXBuildFile; fileRef = AC120784A60A92465DE3C67C /* NSNumber+ReadableDurations.h */; };
-		520D5160D45EE44C5373A751 /* NSArray+Variadic.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E393547F980A5FBE35AB50 /* NSArray+Variadic.m */; };
-		5255C2733DFE2B2F5F1DAEF5 /* NSArray+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 0107BBE0748C445E2F93C3FB /* NSArray+Reduce.m */; };
-		52AD8F8CF604782829ED12EE /* NSSet+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB575773AF27512484C5A60 /* NSSet+Map.h */; };
-		53C9BE84191C4167FEEDAC28 /* NSArray+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBCF83AF93FEF8FCDB1FA5C /* NSArray+Group.h */; };
-		5A4BAA579C749E27503BCBF4 /* NSArray+HeadTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA8B687B875B2DCB6D8384 /* NSArray+HeadTail.m */; };
-		5A7F2886DCD759EAFEDA4478 /* NSDate+TimeBetween.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F70B2FF0B9737BDBBBEEA7F /* NSDate+TimeBetween.h */; };
-		5D29E10A3B93AE8E072E6D5A /* NSNumber+DurationString.m in Sources */ = {isa = PBXBuildFile; fileRef = E701CABB65C6067B5460A269 /* NSNumber+DurationString.m */; };
-		6C5B0202CE9B569420BDCBEA /* KCMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A1EB4C66954ADB7D8C094E /* KCMutableDictionary.h */; };
-		75EB77F027C5A0DA989A9C42 /* NSDictionary+Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3D61963D301DD71ED61B29 /* NSDictionary+Filter.h */; };
-		78979B3250507ED89248CB6D /* NSArray+Variadic.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E3C2DEF800F2B1D9BC07EA /* NSArray+Variadic.h */; };
-		78A06A551DEE7B9BB682836B /* NSError+Init.h in Headers */ = {isa = PBXBuildFile; fileRef = 716517CDB9D6AD3A8957EFF2 /* NSError+Init.h */; };
-		7956BF8669A6CBD20C1E2D10 /* NSArray+All.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10CC98A6F05469E6B86656 /* NSArray+All.m */; };
-		835DF37DF971396CB3DA8E90 /* NSNumber+Times.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CE5F8A10B29671BF5572E /* NSNumber+Times.m */; };
-		87C13E85964A57E19FDCE533 /* NSJSONSerialization+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EBB58051330560212EB6C5 /* NSJSONSerialization+String.m */; };
-		888ABAF75AE64F64A485AC8B /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 8354079FA3EE3AA34F96B89D /* Device.m */; };
-		8D849A232FA2CB6A5D119CFC /* NSArray+Unique.h in Headers */ = {isa = PBXBuildFile; fileRef = 72689895FB525D44A61C91F4 /* NSArray+Unique.h */; };
-		8EE507791B5DCDF4CB5B9B48 /* NSNumber+Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D963DE493640AF33AFEFCC /* NSNumber+Padding.m */; };
-		903BB3FF69B4D4A363809197 /* Pods-IKMapper-IKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C087196F5B43A897B91E18D /* Pods-IKMapper-IKCore-dummy.m */; };
-		94DB91E995CECB3736E865A0 /* NSArray+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFA33514710A98C40CA255 /* NSArray+Filter.m */; };
-		A1AF5931E15D39CAF14B8E08 /* NSArray+HeadTail.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D791023517ACB729B81C2D /* NSArray+HeadTail.h */; };
-		A23C4B1F183817D6EF292CBE /* NSObject+Introspection.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF2A82036CE426C4A27633 /* NSObject+Introspection.m */; };
-		A3CC7D244F43868581A7EDBA /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F12AE460050711ABC62B32 /* Device.h */; };
-		A4AB669FCCA947D609FB1A9D /* NSArray+Take.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CA2F7D2A2211DBB3EEB028 /* NSArray+Take.m */; };
-		A7410F205B099B159586C9BE /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9391A7DEF54768A86352EFD1 /* Reachability.h */; };
-		AB855658D7ED32FFED63CE87 /* Pods-IKMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072BD1FC84C11D9D16CB7E01 /* Pods-IKMapper-dummy.m */; };
-		AE41631C93DFA25468C7CDC6 /* NSDate+TimeBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB60AFB29819040B3988F3D /* NSDate+TimeBetween.m */; };
-		B256BA85E5D7C0EBBCA7E894 /* NSDate+StringFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C0657BA6147BBD2CEC4A91 /* NSDate+StringFormatting.m */; };
-		B291A6DD8BB0444D1290EE58 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A602B49FAE90D2BA0D5339A8 /* DataStore.m */; };
-		CBA289990421C20BD0096E3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63AF80EE47D2DA4A351FA90 /* Foundation.framework */; };
-		D680BEA3B4AF15B73A797BF5 /* NSObject+Introspection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFF5A3935CC9AE5A4910C81 /* NSObject+Introspection.h */; };
-		DA66D19B0D84D3A16918C1BB /* NSDate+Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1DE2386E0BC612CB63786 /* NSDate+Building.m */; };
-		DE8F487538EFB36E17AF9B19 /* NSArray+First.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DF25DCF2259B888223AFC1 /* NSArray+First.m */; };
-		DFE468AC1368BA2F76AD0762 /* NSArray+First.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD4B11137D10FCECF1B1E4D /* NSArray+First.h */; };
-		DFFDBB16A334EF803712E487 /* NSNumber+ReadableDurations.m in Sources */ = {isa = PBXBuildFile; fileRef = C177FFFCD4965E7110869972 /* NSNumber+ReadableDurations.m */; };
-		E6922D7DDFE91D9F0988D042 /* DataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5EA1599673B8B2FB2AAFFE /* DataStore.h */; };
-		EE47CA29905E86A6BCBF6B76 /* NSMutableSet+ThreadSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CBC86D73C32853F791F5BA /* NSMutableSet+ThreadSafe.m */; };
-		F05FC384C14B49D21972F2B3 /* NSNumber+Logic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F48E0A9A92C05D55E20A2C6 /* NSNumber+Logic.h */; };
-		F082D5FEF75A06614EAC91EA /* NSMutableSet+ThreadSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 3349834A12B8A325F4A35B80 /* NSMutableSet+ThreadSafe.h */; };
-		F0AFE0306199F697135EF1E2 /* NSArray+Take.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6D70C3656A834605D149E9 /* NSArray+Take.h */; };
-		F14ECD1284AB1836B96F416C /* NSNumber+Padding.h in Headers */ = {isa = PBXBuildFile; fileRef = 427B62D52627214C7DE580F6 /* NSNumber+Padding.h */; };
-		F648C06D3DB758A599F96DEF /* KCMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D966459857A27D6B076605F8 /* KCMutableDictionary.m */; };
-		F73607A548FF73A6E35DCF70 /* Decorators.h in Headers */ = {isa = PBXBuildFile; fileRef = 36155B7004F109819C1A5CB4 /* Decorators.h */; };
-		F84670952FC7B1E925D72CBF /* MultiSort.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD96F89045D61012A370812 /* MultiSort.h */; };
-		F93E98DB903A1AAD431C9E4D /* NSObject+Null.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AF2D43F182F627045828D4 /* NSObject+Null.h */; };
-		FA015012C1323A9F2334FE54 /* NSDate+StringFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB2FBC8219B7C219E859975 /* NSDate+StringFormatting.h */; };
-		FE44A38D85A0C0D40104BABE /* NSNumber+Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E288F3209B1B156BB6F7246 /* NSNumber+Logic.m */; };
+		01EBF6D2E4C4B5AA2ABAED9C2F671110 /* KCMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6470086DA4AE43C5A8ACFBAE96949F87 /* KCMutableDictionary.m */; };
+		049CCD430B96EE485A3B40146CBAB3E5 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E360FFD9D71AAC69E68D812EE12BA3 /* DataStore.m */; };
+		0BE483DC9C525F37738D4A29316C94D1 /* NSObject+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFA33B984FD097A026A186A5BAB36DD /* NSObject+Map.h */; };
+		104CAB5DB848BF9AA172AB4142C306A7 /* NSArray+HeadTail.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F057ED4D45E7B8EEE4088CF46883FC /* NSArray+HeadTail.h */; };
+		1350342F0C7D2CE41F32E4420439A2A8 /* NSArray+Variadic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6545536FEA03CC0E8118AAA8F64E5CD8 /* NSArray+Variadic.m */; };
+		148BA5F77C84A90B21C6732A09D93608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA82E0E3271B54BF1A4547FFFD0A235 /* Foundation.framework */; };
+		23FEE799DA89F731B8222556E14D32FA /* NSNumber+ReadableDurations.h in Headers */ = {isa = PBXBuildFile; fileRef = 17867E3C65DF0D6444AB4F2AABF3DA4B /* NSNumber+ReadableDurations.h */; };
+		25594FE117F2F964E0B9D406B7008909 /* NSDate+StringFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5BDA72118FBA2A6969112544BFAFEC /* NSDate+StringFormatting.m */; };
+		279D64CFD4DF192A05E18913333DB7A0 /* NSNumber+Times.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE7B618A85AC35C4C6FE9FAE62D6FE /* NSNumber+Times.m */; };
+		2C94E0F0868E4DD7A20E1F430CFFE32B /* NSObject+Null.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D58617A43D78D82A788E428362AAD8E /* NSObject+Null.m */; };
+		2ED3A783DF43878F6CF848C6D5D1B40A /* NSMutableSet+ThreadSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 07DD5C52E2A446A2DA1DEA5B13D2CE5B /* NSMutableSet+ThreadSafe.h */; };
+		3347C83A21761B14D979D37C99BA1DBD /* NSNumber+Times.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E134584A4455466A710A83C34284F42 /* NSNumber+Times.h */; };
+		3638F08A521AFC5CD54415F93DDF20B2 /* Pods-IKMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E980A7BF4F3AEA3DD2B31FFF8BD3F22D /* Pods-IKMapper-dummy.m */; };
+		39848520CAF18276F283FEBEC5EE6997 /* NSArray+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = B646984C41DBEF9F572A6B7F450215BE /* NSArray+Reduce.m */; };
+		3E8739366593E7435A925C3891C58B74 /* NSError+Init.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F482B887974274EBA7312E9800D9FB /* NSError+Init.m */; };
+		3EB53C99D189C3FD87ECF89978797DF3 /* NSDictionary+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D7E37AE51739BFDA32168F00DC540 /* NSDictionary+Filter.m */; };
+		3ECB53B11A3FB6A202957497FD748677 /* NSArray+Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9604F8AC63C3E5C068B35DBDB9030A /* NSArray+Filter.h */; };
+		402371F4FB9923F1ECF93A31E822C7DA /* NSError+Init.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF104E59505C6BDEB31DDC92D57B90D /* NSError+Init.h */; };
+		461322B39BD06318298CF9F7DA9A84B9 /* NSArray+All.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C5FDDBBDF77A4B929BFC0C44E7DCF0 /* NSArray+All.h */; };
+		46B5A7ED6D22D3CA9AC5525A35AD4759 /* NSObject+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 57038ED316F07FD83E833C3235C04578 /* NSObject+Map.m */; };
+		4F663B144D77DE0AFAD00F9C7D4B8B3E /* ISO8601Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A42DE0B5BC6169C86A06CC349E529E /* ISO8601Serialization.h */; };
+		527FC0B02C3833C7CC3571E40DD39B38 /* NSDate+Shortcuts.h in Headers */ = {isa = PBXBuildFile; fileRef = 3044C2C2794C45DCF5C4D11C11E6AAA5 /* NSDate+Shortcuts.h */; };
+		551F1718279D01AA0603FB5B44C67137 /* ISO8601Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E514E11D52810FD24C8F66FB7602C7 /* ISO8601Serialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57E550DF52AE560A6FD77D0B56EE8195 /* NSDate+TimeBetween.h in Headers */ = {isa = PBXBuildFile; fileRef = C721F7F9F669340954EFD8654BDBA758 /* NSDate+TimeBetween.h */; };
+		5C14E4668A06C10D9B2C58FD400093BF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA9A151222F7F1ADAFF49E02D72548 /* Reachability.m */; };
+		60DA64FACCA795C16847F2166B1D36CB /* NSArray+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C6491D28D5D54591CD6086B87A372 /* NSArray+Filter.m */; };
+		66101D775453FA9A6B1A9CC6FF2A957C /* NSNumber+Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4B7C1332F89A9D771EDF054D3FDF8 /* NSNumber+Padding.m */; };
+		6DB6183200193FE845AB4E2DA1D9D7BC /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1990BA359E454B2DE094E3883F0A07C8 /* Defines.h */; };
+		6EF2667FC17D5AD675FD563BBF28802C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA82E0E3271B54BF1A4547FFFD0A235 /* Foundation.framework */; };
+		72F328300DE9E95DBBFDD6F130A475F0 /* MultiSort.h in Headers */ = {isa = PBXBuildFile; fileRef = AD84079D11295152B8A54294E1095F32 /* MultiSort.h */; };
+		7B8DDA979D00DCA2978BB11320826E21 /* NSSet+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A66E9086D4F95EABCF2422822906F /* NSSet+Map.m */; };
+		7C416E587E8F63BF3B85502DDCE8ACB6 /* NSArray+First.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFE21B693DAB01C36B175E0C4E0976 /* NSArray+First.m */; };
+		7C8897C49985E0591A82D0CA7F93C7C1 /* NSArray+Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CDD8770E530E3703CBCB327147FC0B /* NSArray+Group.h */; };
+		7CC34AA812FFCC4E0EE6546BB80C6E27 /* NSNumber+Padding.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FB468B370EBF1A13416F7C63CE7440 /* NSNumber+Padding.h */; };
+		7CFA287294EA6D078504CEE19625CB0F /* NSObject+Introspection.m in Sources */ = {isa = PBXBuildFile; fileRef = 095238E49F4EE59BA356A6C804A499F6 /* NSObject+Introspection.m */; };
+		7DF75756B6778021469D382B9FB1C4AE /* KCMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA1DE7306E612E3801D6D198280FD90 /* KCMutableDictionary.h */; };
+		80B9DA6DEF2E452C72F87127898CA7E7 /* NSDate+Building.h in Headers */ = {isa = PBXBuildFile; fileRef = 315BCFE47CD6CB54A33B992220C91D5D /* NSDate+Building.h */; };
+		822584BD740C0E82955BE7D9216F091E /* NSArray+Unique.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A09DFD853F22BD4D4C5F7CE722BDD9 /* NSArray+Unique.h */; };
+		8DA39007C31753612FE0049288BCDF98 /* NSDate+StringFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5408D98D7C1AEF3B6A81BE92E4E8EA65 /* NSDate+StringFormatting.h */; };
+		8ED661807B96E74A445904959E694F5D /* NSArray+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C7F98C10C28898B39B16F710586DF5 /* NSArray+Group.m */; };
+		90A33482F105591172BC499814CE4274 /* NSDictionary+Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3073A9DEF62E6BFA0C3085FB3479B4E5 /* NSDictionary+Filter.h */; };
+		916B4470471A0ADD629707379C38B194 /* NSJSONSerialization+String.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C8AEF341CC406E49BA00A483708685 /* NSJSONSerialization+String.m */; };
+		958F4527A1EB83CE4B74F9CB35D53D0F /* NSJSONSerialization+String.h in Headers */ = {isa = PBXBuildFile; fileRef = CED55FA35CD453C21975BCC68AD15E3D /* NSJSONSerialization+String.h */; };
+		95C29E1A6B223E13C1DCDFADC8BB4F0E /* NSMutableSet+ThreadSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE506FCD2BDF2731570882CEFCB93D5 /* NSMutableSet+ThreadSafe.m */; };
+		97437874C0646817ACDD233704150A45 /* NSArray+Variadic.h in Headers */ = {isa = PBXBuildFile; fileRef = 245E2D7EC8B355A79C2D7E1091DFF1EB /* NSArray+Variadic.h */; };
+		979677D1B81B2D477E2ADE35ED188807 /* NSNumber+Logic.h in Headers */ = {isa = PBXBuildFile; fileRef = 929D7ACF55C2F0703FD8169EAA1780CD /* NSNumber+Logic.h */; };
+		97FD84A322F59530A4B2456A82259A82 /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5AFB4A318475C0E4D907FB52617B92 /* Device.h */; };
+		9E39A1F2021D68739C781DC678472F05 /* NSSet+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B8886FBA13953926E6775C8D0505C1 /* NSSet+Map.h */; };
+		9F2C790212EF4973F4C4766C4CB2AB87 /* ISO8601-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2113CCDEA706D42BA2E381B6E14E1D4 /* ISO8601-dummy.m */; };
+		A4F960E7701BC7C9B0EE538179E6A1F2 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC2441CA2F4CF32AD1CED393996646 /* NSDate+ISO8601.h */; };
+		ADE4C26E2CD575AA2DFA9B07FD4A9068 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = DC858456398AF4B61CE6B827307E4D11 /* Device.m */; };
+		AE4399E2FDC93A63C61D145FE55C838A /* NSNumber+DurationString.m in Sources */ = {isa = PBXBuildFile; fileRef = 75105AC9A25F19702464F49B6E0AA230 /* NSNumber+DurationString.m */; };
+		AE5CBB2D28DC65D7077031DFD74D9892 /* NSArray+Reduce.h in Headers */ = {isa = PBXBuildFile; fileRef = 83160FE625604166906AF5E6C0526844 /* NSArray+Reduce.h */; };
+		B2852B8D7C1BE62C3280E9D0F76F0B06 /* IKCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4370EF6571A1B4ED8A0E116C8FF2E /* IKCore-dummy.m */; };
+		BF2E7FE268EAAE751424D17DF12AA309 /* NSObject+Introspection.h in Headers */ = {isa = PBXBuildFile; fileRef = F520615010F8CDFDE264357A9593406A /* NSObject+Introspection.h */; };
+		C1DE91FBF783A7CD8CA1138EDEF30C7C /* NSArray+Take.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5CA5789B1651E054C33B610E4F1274 /* NSArray+Take.m */; };
+		C253888AADCCE249642D4594C3E61964 /* NSDate+TimeBetween.m in Sources */ = {isa = PBXBuildFile; fileRef = B26C0784707471E4A935782249910593 /* NSDate+TimeBetween.m */; };
+		C3D522FE1281C396CDE552741E3DB067 /* DataStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B32F4F398E7159C446E0F84B91D38B /* DataStore.h */; };
+		CE43013C02710115B59FC244FCA98CD2 /* NSArray+Take.h in Headers */ = {isa = PBXBuildFile; fileRef = B75A5E1A97AA97ACF73BC6508FBA6CA7 /* NSArray+Take.h */; };
+		D270F04B9544FA6D39BA7CE9C4CED945 /* NSArray+Unique.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5F89EA4F63D908CA9C98E57DDDFFC3 /* NSArray+Unique.m */; };
+		D44BFBDC1CF0392426746C0B3E03C14C /* NSDate+Building.m in Sources */ = {isa = PBXBuildFile; fileRef = F292E5103D37472F32633C0BE1C419C9 /* NSDate+Building.m */; };
+		D8E28064D6B986B844EA75E5313C40EA /* NSObject+Null.h in Headers */ = {isa = PBXBuildFile; fileRef = F515048F7A46846CA3D4CE874EE0F020 /* NSObject+Null.h */; };
+		DAE3E65519E4DC586B3EAD8D0B3D55AD /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B132070FB439B741EE8F8EF655C8F8F /* NSDate+ISO8601.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DAF0D79A2455BB76504B4654A01356F2 /* MultiSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B1D92E46AF9F4E5CAD249B3ABD58F /* MultiSort.m */; };
+		DC89878C8AA84A45141527FF638FEE7C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D89D78E8CA788839DCC0138116CADA13 /* Reachability.h */; };
+		DF53025DFDE1BB23040512EDA8918E01 /* NSNumber+ReadableDurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2548BBC5D8B61C52B700DF3E138D6071 /* NSNumber+ReadableDurations.m */; };
+		E1FBBCFC39D9EA336BD8BBCDA7EEE027 /* NSArray+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 712814693C9226E00B081CF7EB5A828E /* NSArray+All.m */; };
+		E3CB87E611A4AF9DC791EDE72BE6DC2F /* ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2A60C442FF459EC8B4686DFC684BC8 /* ISO8601.h */; };
+		E5F208A889F75CFC3CA3941476D4EC9E /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7449129D16E50CE5B7A3C78907A03E /* NSArray+Map.m */; };
+		E9C667758731ACCD0D776BF0530E72E0 /* NSArray+HeadTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8146FD52868C0C3064E19B50820D9EDE /* NSArray+HeadTail.m */; };
+		ED70CC6E35EE729B8EF6D5C5216AC5FE /* NSDate+Shortcuts.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2981C18BD89C62DBEDDE3A25F26C0F /* NSDate+Shortcuts.m */; };
+		F15F45A2C84584C7ABA9B528A400003C /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 315075BE308E788C54E71F4A33F6AF81 /* NSArray+Map.h */; };
+		F5B606AA9B3AF23B260562130F3EAA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA82E0E3271B54BF1A4547FFFD0A235 /* Foundation.framework */; };
+		F6F74EA0DDED8122313CC175289A19E3 /* Decorators.h in Headers */ = {isa = PBXBuildFile; fileRef = B294590341BC89E2D238460B4BC9F144 /* Decorators.h */; };
+		FB69F133BE84CBA6743BD9F188148736 /* NSNumber+DurationString.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC7C97F3DB5150613A2C9CB030C65A2 /* NSNumber+DurationString.h */; };
+		FBB4F3A723660F9000EE0A6FADEC39DD /* NSArray+First.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BD982FB699B2CA906249A1D5BC39C2 /* NSArray+First.h */; };
+		FC25E9B03010DC5A205353A957B1FB86 /* NSNumber+Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9E55996D5230AD0B9B2259B9679BDA /* NSNumber+Logic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8725D9B94C611A2DCF92084F /* PBXContainerItemProxy */ = {
+		81725699EBE859F48ED410C45FDB1AB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5BD582EF66F2F1A2A4E3788D /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE536534E85A2D2CB842F0B8;
-			remoteInfo = "Pods-IKMapper-IKCore";
+			remoteGlobalIDString = 3FB052E24FC21B6B042C70B413201238;
+			remoteInfo = ISO8601;
+		};
+		D356F4049B5D2D389864A242C1CEBD2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F4EB84F745A9A0B35C99A12BB8C57C;
+			remoteInfo = IKCore;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0107BBE0748C445E2F93C3FB /* NSArray+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Reduce.m"; path = "IKCore/NSArray/NSArray+Reduce.m"; sourceTree = "<group>"; };
-		037FC9DD95EC0213E30AF663 /* NSDate+Shortcuts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Shortcuts.h"; path = "IKCore/NSDate/NSDate+Shortcuts.h"; sourceTree = "<group>"; };
-		072BD1FC84C11D9D16CB7E01 /* Pods-IKMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IKMapper-dummy.m"; sourceTree = "<group>"; };
-		0CE4237A0FA5E343E2C1DA36 /* MultiSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultiSort.m; path = IKCore/MultiSort.m; sourceTree = "<group>"; };
-		1078932EA50EE589E1380917 /* NSDictionary+Filter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Filter.m"; path = "IKCore/NSDictionary/NSDictionary+Filter.m"; sourceTree = "<group>"; };
-		10DA8B687B875B2DCB6D8384 /* NSArray+HeadTail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HeadTail.m"; path = "IKCore/NSArray/NSArray+HeadTail.m"; sourceTree = "<group>"; };
-		15FC0506D037AB5328A433A1 /* Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = IKCore/Defines.h; sourceTree = "<group>"; };
-		1DB2FBC8219B7C219E859975 /* NSDate+StringFormatting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+StringFormatting.h"; path = "IKCore/NSDate/NSDate+StringFormatting.h"; sourceTree = "<group>"; };
-		26B9AD2A0C60AE50509936D4 /* NSArray+Unique.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Unique.m"; path = "IKCore/NSArray/NSArray+Unique.m"; sourceTree = "<group>"; };
-		26BFA33514710A98C40CA255 /* NSArray+Filter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Filter.m"; path = "IKCore/NSArray/NSArray+Filter.m"; sourceTree = "<group>"; };
-		28A50D2407390CD1A8D50D45 /* NSJSONSerialization+String.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+String.h"; path = "IKCore/NSJSONSerialization/NSJSONSerialization+String.h"; sourceTree = "<group>"; };
-		2D98C4564E506019C5307740 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = IKCore/Vendor/Reachability/Reachability.m; sourceTree = "<group>"; };
-		2DD6CD365FF76FF1AFE7437E /* NSArray+Group.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Group.m"; path = "IKCore/NSArray/NSArray+Group.m"; sourceTree = "<group>"; };
-		2F36EBB314E9A6BB7CD15093 /* NSObject+Null.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Null.m"; path = "IKCore/NSObject/NSObject+Null.m"; sourceTree = "<group>"; };
-		3349834A12B8A325F4A35B80 /* NSMutableSet+ThreadSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+ThreadSafe.h"; path = "IKCore/NSMutableSet/NSMutableSet+ThreadSafe.h"; sourceTree = "<group>"; };
-		36155B7004F109819C1A5CB4 /* Decorators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Decorators.h; path = IKCore/Decorators.h; sourceTree = "<group>"; };
-		3AB1DE2386E0BC612CB63786 /* NSDate+Building.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Building.m"; path = "IKCore/NSDate/NSDate+Building.m"; sourceTree = "<group>"; };
-		3E0F4E943DAA39E46C2F1177 /* NSObject+Map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Map.h"; path = "IKCore/NSObject/NSObject+Map.h"; sourceTree = "<group>"; };
-		427B62D52627214C7DE580F6 /* NSNumber+Padding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Padding.h"; path = "IKCore/NSNumber/NSNumber+Padding.h"; sourceTree = "<group>"; };
-		42A1EB4C66954ADB7D8C094E /* KCMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCMutableDictionary.h; path = IKCore/Vendor/KeyChain/KCMutableDictionary.h; sourceTree = "<group>"; };
-		435D94E089773290BDB8CD4F /* NSArray+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+All.h"; path = "IKCore/NSArray/NSArray+All.h"; sourceTree = "<group>"; };
-		44DCF22E7FAC2FF96D30AB36 /* NSSet+Map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+Map.m"; path = "IKCore/NSSet/NSSet+Map.m"; sourceTree = "<group>"; };
-		4749328BCE6A30BB39A38ED9 /* Pods-IKMapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IKMapper-acknowledgements.plist"; sourceTree = "<group>"; };
-		4A00DA0F11A7F8DF44D16AEF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4E288F3209B1B156BB6F7246 /* NSNumber+Logic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Logic.m"; path = "IKCore/NSNumber/NSNumber+Logic.m"; sourceTree = "<group>"; };
-		50DBF4769597852E396077AD /* NSArray+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Reduce.h"; path = "IKCore/NSArray/NSArray+Reduce.h"; sourceTree = "<group>"; };
-		52CA2F7D2A2211DBB3EEB028 /* NSArray+Take.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Take.m"; path = "IKCore/NSArray/NSArray+Take.m"; sourceTree = "<group>"; };
-		55E3C2DEF800F2B1D9BC07EA /* NSArray+Variadic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Variadic.h"; path = "IKCore/NSArray/NSArray+Variadic.h"; sourceTree = "<group>"; };
-		5AB9316EDC1F15FBA1866704 /* NSArray+Map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Map.m"; path = "IKCore/NSArray/NSArray+Map.m"; sourceTree = "<group>"; };
-		6018A04DF879821F7C1192F4 /* NSError+Init.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+Init.m"; path = "IKCore/NSError/NSError+Init.m"; sourceTree = "<group>"; };
-		63EBB58051330560212EB6C5 /* NSJSONSerialization+String.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+String.m"; path = "IKCore/NSJSONSerialization/NSJSONSerialization+String.m"; sourceTree = "<group>"; };
-		6D8CE5F8A10B29671BF5572E /* NSNumber+Times.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Times.m"; path = "IKCore/NSNumber/NSNumber+Times.m"; sourceTree = "<group>"; };
-		6E9983252C7332EB8B438A7C /* Pods-IKMapper-IKCore-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IKMapper-IKCore-Private.xcconfig"; sourceTree = "<group>"; };
-		6EFF5A3935CC9AE5A4910C81 /* NSObject+Introspection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Introspection.h"; path = "IKCore/NSObject/NSObject+Introspection.h"; sourceTree = "<group>"; };
-		6FB60AFB29819040B3988F3D /* NSDate+TimeBetween.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TimeBetween.m"; path = "IKCore/NSDate/NSDate+TimeBetween.m"; sourceTree = "<group>"; };
-		716517CDB9D6AD3A8957EFF2 /* NSError+Init.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+Init.h"; path = "IKCore/NSError/NSError+Init.h"; sourceTree = "<group>"; };
-		72689895FB525D44A61C91F4 /* NSArray+Unique.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Unique.h"; path = "IKCore/NSArray/NSArray+Unique.h"; sourceTree = "<group>"; };
-		78B9BB912B49FE450F5D9B8B /* Pods-IKMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IKMapper.release.xcconfig"; sourceTree = "<group>"; };
-		8064F40251204ECC8E21C05D /* libPods-IKMapper-IKCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKMapper-IKCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8189FAA40FAEFDB2450364D0 /* libPods-IKMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		834FED3BFD0F151AC0B8F2D8 /* NSDate+Shortcuts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Shortcuts.m"; path = "IKCore/NSDate/NSDate+Shortcuts.m"; sourceTree = "<group>"; };
-		8354079FA3EE3AA34F96B89D /* Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Device.m; path = IKCore/Device/Device.m; sourceTree = "<group>"; };
-		8791319956C5BEAF8E69F7BE /* NSObject+Map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Map.m"; path = "IKCore/NSObject/NSObject+Map.m"; sourceTree = "<group>"; };
-		88D791023517ACB729B81C2D /* NSArray+HeadTail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HeadTail.h"; path = "IKCore/NSArray/NSArray+HeadTail.h"; sourceTree = "<group>"; };
-		892AEBC1594270D051D16DB3 /* NSArray+Map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Map.h"; path = "IKCore/NSArray/NSArray+Map.h"; sourceTree = "<group>"; };
-		8C087196F5B43A897B91E18D /* Pods-IKMapper-IKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IKMapper-IKCore-dummy.m"; sourceTree = "<group>"; };
-		8F1EF43269D46546C454106C /* Pods-IKMapper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IKMapper-resources.sh"; sourceTree = "<group>"; };
-		8F70B2FF0B9737BDBBBEEA7F /* NSDate+TimeBetween.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+TimeBetween.h"; path = "IKCore/NSDate/NSDate+TimeBetween.h"; sourceTree = "<group>"; };
-		8FDC36242F6D6C713695B506 /* NSDate+Building.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Building.h"; path = "IKCore/NSDate/NSDate+Building.h"; sourceTree = "<group>"; };
-		9391A7DEF54768A86352EFD1 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = IKCore/Vendor/Reachability/Reachability.h; sourceTree = "<group>"; };
-		94D963DE493640AF33AFEFCC /* NSNumber+Padding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Padding.m"; path = "IKCore/NSNumber/NSNumber+Padding.m"; sourceTree = "<group>"; };
-		94F12AE460050711ABC62B32 /* Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Device.h; path = IKCore/Device/Device.h; sourceTree = "<group>"; };
-		986B55E50E87035EBC2902FD /* Pods-IKMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IKMapper.debug.xcconfig"; sourceTree = "<group>"; };
-		9B6D70C3656A834605D149E9 /* NSArray+Take.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Take.h"; path = "IKCore/NSArray/NSArray+Take.h"; sourceTree = "<group>"; };
-		9F3D61963D301DD71ED61B29 /* NSDictionary+Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Filter.h"; path = "IKCore/NSDictionary/NSDictionary+Filter.h"; sourceTree = "<group>"; };
-		9F48E0A9A92C05D55E20A2C6 /* NSNumber+Logic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Logic.h"; path = "IKCore/NSNumber/NSNumber+Logic.h"; sourceTree = "<group>"; };
-		A3493EF54B541DA21162ED39 /* Pods-IKMapper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IKMapper-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A602B49FAE90D2BA0D5339A8 /* DataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataStore.m; path = IKCore/DataStore/DataStore.m; sourceTree = "<group>"; };
-		A6AF2D43F182F627045828D4 /* NSObject+Null.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Null.h"; path = "IKCore/NSObject/NSObject+Null.h"; sourceTree = "<group>"; };
-		ABD4B11137D10FCECF1B1E4D /* NSArray+First.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+First.h"; path = "IKCore/NSArray/NSArray+First.h"; sourceTree = "<group>"; };
-		AC120784A60A92465DE3C67C /* NSNumber+ReadableDurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ReadableDurations.h"; path = "IKCore/NSNumber/NSNumber+ReadableDurations.h"; sourceTree = "<group>"; };
-		AF2B3BBB91448AF5E9544F6D /* Pods-IKMapper-IKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IKMapper-IKCore-prefix.pch"; sourceTree = "<group>"; };
-		B0DF25DCF2259B888223AFC1 /* NSArray+First.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+First.m"; path = "IKCore/NSArray/NSArray+First.m"; sourceTree = "<group>"; };
-		B63AF80EE47D2DA4A351FA90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B7AF2A82036CE426C4A27633 /* NSObject+Introspection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Introspection.m"; path = "IKCore/NSObject/NSObject+Introspection.m"; sourceTree = "<group>"; };
-		BA5EA1599673B8B2FB2AAFFE /* DataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataStore.h; path = IKCore/DataStore/DataStore.h; sourceTree = "<group>"; };
-		BE10CC98A6F05469E6B86656 /* NSArray+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+All.m"; path = "IKCore/NSArray/NSArray+All.m"; sourceTree = "<group>"; };
-		C177FFFCD4965E7110869972 /* NSNumber+ReadableDurations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ReadableDurations.m"; path = "IKCore/NSNumber/NSNumber+ReadableDurations.m"; sourceTree = "<group>"; };
-		D0E393547F980A5FBE35AB50 /* NSArray+Variadic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Variadic.m"; path = "IKCore/NSArray/NSArray+Variadic.m"; sourceTree = "<group>"; };
-		D2C0657BA6147BBD2CEC4A91 /* NSDate+StringFormatting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+StringFormatting.m"; path = "IKCore/NSDate/NSDate+StringFormatting.m"; sourceTree = "<group>"; };
-		D659FEF9192021DA164ABA15 /* Pods-IKMapper-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IKMapper-environment.h"; sourceTree = "<group>"; };
-		D953F675E909BB37A33B94A4 /* NSArray+Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Filter.h"; path = "IKCore/NSArray/NSArray+Filter.h"; sourceTree = "<group>"; };
-		D966459857A27D6B076605F8 /* KCMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KCMutableDictionary.m; path = IKCore/Vendor/KeyChain/KCMutableDictionary.m; sourceTree = "<group>"; };
-		DDD96F89045D61012A370812 /* MultiSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultiSort.h; path = IKCore/MultiSort.h; sourceTree = "<group>"; };
-		DFBCF83AF93FEF8FCDB1FA5C /* NSArray+Group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Group.h"; path = "IKCore/NSArray/NSArray+Group.h"; sourceTree = "<group>"; };
-		E1CBC86D73C32853F791F5BA /* NSMutableSet+ThreadSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+ThreadSafe.m"; path = "IKCore/NSMutableSet/NSMutableSet+ThreadSafe.m"; sourceTree = "<group>"; };
-		E701CABB65C6067B5460A269 /* NSNumber+DurationString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+DurationString.m"; path = "IKCore/NSNumber/NSNumber+DurationString.m"; sourceTree = "<group>"; };
-		ECB575773AF27512484C5A60 /* NSSet+Map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+Map.h"; path = "IKCore/NSSet/NSSet+Map.h"; sourceTree = "<group>"; };
-		EED984DA9B8831697EF67766 /* Pods-IKMapper-IKCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IKMapper-IKCore.xcconfig"; sourceTree = "<group>"; };
-		FB82D1D8D0022FC9116A50F6 /* NSNumber+DurationString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+DurationString.h"; path = "IKCore/NSNumber/NSNumber+DurationString.h"; sourceTree = "<group>"; };
-		FD8D1152333AA40664A3E879 /* NSNumber+Times.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Times.h"; path = "IKCore/NSNumber/NSNumber+Times.h"; sourceTree = "<group>"; };
+		07DD5C52E2A446A2DA1DEA5B13D2CE5B /* NSMutableSet+ThreadSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+ThreadSafe.h"; path = "IKCore/NSMutableSet/NSMutableSet+ThreadSafe.h"; sourceTree = "<group>"; };
+		08E6D705171E45B200D65B5BAFA696E7 /* libISO8601.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libISO8601.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		095238E49F4EE59BA356A6C804A499F6 /* NSObject+Introspection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Introspection.m"; path = "IKCore/NSObject/NSObject+Introspection.m"; sourceTree = "<group>"; };
+		0C9604F8AC63C3E5C068B35DBDB9030A /* NSArray+Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Filter.h"; path = "IKCore/NSArray/NSArray+Filter.h"; sourceTree = "<group>"; };
+		17867E3C65DF0D6444AB4F2AABF3DA4B /* NSNumber+ReadableDurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ReadableDurations.h"; path = "IKCore/NSNumber/NSNumber+ReadableDurations.h"; sourceTree = "<group>"; };
+		1990BA359E454B2DE094E3883F0A07C8 /* Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = IKCore/Defines.h; sourceTree = "<group>"; };
+		1BBFE21B693DAB01C36B175E0C4E0976 /* NSArray+First.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+First.m"; path = "IKCore/NSArray/NSArray+First.m"; sourceTree = "<group>"; };
+		1D1B1D92E46AF9F4E5CAD249B3ABD58F /* MultiSort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultiSort.m; path = IKCore/MultiSort.m; sourceTree = "<group>"; };
+		20B8886FBA13953926E6775C8D0505C1 /* NSSet+Map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+Map.h"; path = "IKCore/NSSet/NSSet+Map.h"; sourceTree = "<group>"; };
+		245E2D7EC8B355A79C2D7E1091DFF1EB /* NSArray+Variadic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Variadic.h"; path = "IKCore/NSArray/NSArray+Variadic.h"; sourceTree = "<group>"; };
+		2548BBC5D8B61C52B700DF3E138D6071 /* NSNumber+ReadableDurations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ReadableDurations.m"; path = "IKCore/NSNumber/NSNumber+ReadableDurations.m"; sourceTree = "<group>"; };
+		2823A0E7A8A4B2ECD9D02D871DBD087C /* ISO8601.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601.xcconfig; sourceTree = "<group>"; };
+		2ADC2441CA2F4CF32AD1CED393996646 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601.h"; path = "ISO8601/NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		2DE506FCD2BDF2731570882CEFCB93D5 /* NSMutableSet+ThreadSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+ThreadSafe.m"; path = "IKCore/NSMutableSet/NSMutableSet+ThreadSafe.m"; sourceTree = "<group>"; };
+		2FFA33B984FD097A026A186A5BAB36DD /* NSObject+Map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Map.h"; path = "IKCore/NSObject/NSObject+Map.h"; sourceTree = "<group>"; };
+		3044C2C2794C45DCF5C4D11C11E6AAA5 /* NSDate+Shortcuts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Shortcuts.h"; path = "IKCore/NSDate/NSDate+Shortcuts.h"; sourceTree = "<group>"; };
+		3073A9DEF62E6BFA0C3085FB3479B4E5 /* NSDictionary+Filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Filter.h"; path = "IKCore/NSDictionary/NSDictionary+Filter.h"; sourceTree = "<group>"; };
+		315075BE308E788C54E71F4A33F6AF81 /* NSArray+Map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Map.h"; path = "IKCore/NSArray/NSArray+Map.h"; sourceTree = "<group>"; };
+		315BCFE47CD6CB54A33B992220C91D5D /* NSDate+Building.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Building.h"; path = "IKCore/NSDate/NSDate+Building.h"; sourceTree = "<group>"; };
+		33A2EEB667F4C394053C437CA00517CD /* ISO8601-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ISO8601-Private.xcconfig"; sourceTree = "<group>"; };
+		38DCB700D1E4FE746BF0ACE71D1ECF35 /* IKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IKCore-prefix.pch"; sourceTree = "<group>"; };
+		3D58617A43D78D82A788E428362AAD8E /* NSObject+Null.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Null.m"; path = "IKCore/NSObject/NSObject+Null.m"; sourceTree = "<group>"; };
+		48F057ED4D45E7B8EEE4088CF46883FC /* NSArray+HeadTail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HeadTail.h"; path = "IKCore/NSArray/NSArray+HeadTail.h"; sourceTree = "<group>"; };
+		4D5CA5789B1651E054C33B610E4F1274 /* NSArray+Take.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Take.m"; path = "IKCore/NSArray/NSArray+Take.m"; sourceTree = "<group>"; };
+		4E5FF23B051E7FCD239A606E514E95CD /* Pods-IKMapper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IKMapper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5408D98D7C1AEF3B6A81BE92E4E8EA65 /* NSDate+StringFormatting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+StringFormatting.h"; path = "IKCore/NSDate/NSDate+StringFormatting.h"; sourceTree = "<group>"; };
+		54D242208C24C18AC5A1C7E363D0545C /* libIKCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIKCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		57038ED316F07FD83E833C3235C04578 /* NSObject+Map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Map.m"; path = "IKCore/NSObject/NSObject+Map.m"; sourceTree = "<group>"; };
+		58FB468B370EBF1A13416F7C63CE7440 /* NSNumber+Padding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Padding.h"; path = "IKCore/NSNumber/NSNumber+Padding.h"; sourceTree = "<group>"; };
+		5A7449129D16E50CE5B7A3C78907A03E /* NSArray+Map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Map.m"; path = "IKCore/NSArray/NSArray+Map.m"; sourceTree = "<group>"; };
+		5B2A60C442FF459EC8B4686DFC684BC8 /* ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601.h; path = ISO8601/ISO8601.h; sourceTree = "<group>"; };
+		62C5FDDBBDF77A4B929BFC0C44E7DCF0 /* NSArray+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+All.h"; path = "IKCore/NSArray/NSArray+All.h"; sourceTree = "<group>"; };
+		6470086DA4AE43C5A8ACFBAE96949F87 /* KCMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KCMutableDictionary.m; path = IKCore/Vendor/KeyChain/KCMutableDictionary.m; sourceTree = "<group>"; };
+		6545536FEA03CC0E8118AAA8F64E5CD8 /* NSArray+Variadic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Variadic.m"; path = "IKCore/NSArray/NSArray+Variadic.m"; sourceTree = "<group>"; };
+		6A5F89EA4F63D908CA9C98E57DDDFFC3 /* NSArray+Unique.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Unique.m"; path = "IKCore/NSArray/NSArray+Unique.m"; sourceTree = "<group>"; };
+		6A7C6491D28D5D54591CD6086B87A372 /* NSArray+Filter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Filter.m"; path = "IKCore/NSArray/NSArray+Filter.m"; sourceTree = "<group>"; };
+		6BDA9A151222F7F1ADAFF49E02D72548 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = IKCore/Vendor/Reachability/Reachability.m; sourceTree = "<group>"; };
+		6D47E96AF53C1AA131340675DE23E7EB /* Pods-IKMapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IKMapper-acknowledgements.plist"; sourceTree = "<group>"; };
+		712814693C9226E00B081CF7EB5A828E /* NSArray+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+All.m"; path = "IKCore/NSArray/NSArray+All.m"; sourceTree = "<group>"; };
+		75105AC9A25F19702464F49B6E0AA230 /* NSNumber+DurationString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+DurationString.m"; path = "IKCore/NSNumber/NSNumber+DurationString.m"; sourceTree = "<group>"; };
+		75B32F4F398E7159C446E0F84B91D38B /* DataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataStore.h; path = IKCore/DataStore/DataStore.h; sourceTree = "<group>"; };
+		76E514E11D52810FD24C8F66FB7602C7 /* ISO8601Serialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISO8601Serialization.m; path = ISO8601/ISO8601Serialization.m; sourceTree = "<group>"; };
+		79D9D420656F7E254978C615255BE8E9 /* libPods-IKMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B132070FB439B741EE8F8EF655C8F8F /* NSDate+ISO8601.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ISO8601.m"; path = "ISO8601/NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		7E134584A4455466A710A83C34284F42 /* NSNumber+Times.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Times.h"; path = "IKCore/NSNumber/NSNumber+Times.h"; sourceTree = "<group>"; };
+		8146FD52868C0C3064E19B50820D9EDE /* NSArray+HeadTail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HeadTail.m"; path = "IKCore/NSArray/NSArray+HeadTail.m"; sourceTree = "<group>"; };
+		83160FE625604166906AF5E6C0526844 /* NSArray+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Reduce.h"; path = "IKCore/NSArray/NSArray+Reduce.h"; sourceTree = "<group>"; };
+		83CDD8770E530E3703CBCB327147FC0B /* NSArray+Group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Group.h"; path = "IKCore/NSArray/NSArray+Group.h"; sourceTree = "<group>"; };
+		85A09DFD853F22BD4D4C5F7CE722BDD9 /* NSArray+Unique.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Unique.h"; path = "IKCore/NSArray/NSArray+Unique.h"; sourceTree = "<group>"; };
+		8A15DFB8F9841112373E289D318E8A4F /* ISO8601-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601-prefix.pch"; sourceTree = "<group>"; };
+		8FC7C97F3DB5150613A2C9CB030C65A2 /* NSNumber+DurationString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+DurationString.h"; path = "IKCore/NSNumber/NSNumber+DurationString.h"; sourceTree = "<group>"; };
+		8FD66FEAE76544FE95A9102F421070A9 /* IKCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IKCore.xcconfig; sourceTree = "<group>"; };
+		929D7ACF55C2F0703FD8169EAA1780CD /* NSNumber+Logic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Logic.h"; path = "IKCore/NSNumber/NSNumber+Logic.h"; sourceTree = "<group>"; };
+		941C303F8CE8784A74066CC93DFFDCFB /* Pods-IKMapper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IKMapper-resources.sh"; sourceTree = "<group>"; };
+		9B2A66E9086D4F95EABCF2422822906F /* NSSet+Map.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+Map.m"; path = "IKCore/NSSet/NSSet+Map.m"; sourceTree = "<group>"; };
+		A3BD982FB699B2CA906249A1D5BC39C2 /* NSArray+First.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+First.h"; path = "IKCore/NSArray/NSArray+First.h"; sourceTree = "<group>"; };
+		A4E360FFD9D71AAC69E68D812EE12BA3 /* DataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataStore.m; path = IKCore/DataStore/DataStore.m; sourceTree = "<group>"; };
+		ABA1DE7306E612E3801D6D198280FD90 /* KCMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCMutableDictionary.h; path = IKCore/Vendor/KeyChain/KCMutableDictionary.h; sourceTree = "<group>"; };
+		ACF104E59505C6BDEB31DDC92D57B90D /* NSError+Init.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+Init.h"; path = "IKCore/NSError/NSError+Init.h"; sourceTree = "<group>"; };
+		AD84079D11295152B8A54294E1095F32 /* MultiSort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultiSort.h; path = IKCore/MultiSort.h; sourceTree = "<group>"; };
+		B2113CCDEA706D42BA2E381B6E14E1D4 /* ISO8601-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601-dummy.m"; sourceTree = "<group>"; };
+		B26C0784707471E4A935782249910593 /* NSDate+TimeBetween.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TimeBetween.m"; path = "IKCore/NSDate/NSDate+TimeBetween.m"; sourceTree = "<group>"; };
+		B294590341BC89E2D238460B4BC9F144 /* Decorators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Decorators.h; path = IKCore/Decorators.h; sourceTree = "<group>"; };
+		B4A42DE0B5BC6169C86A06CC349E529E /* ISO8601Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601Serialization.h; path = ISO8601/ISO8601Serialization.h; sourceTree = "<group>"; };
+		B646984C41DBEF9F572A6B7F450215BE /* NSArray+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Reduce.m"; path = "IKCore/NSArray/NSArray+Reduce.m"; sourceTree = "<group>"; };
+		B6BE7B618A85AC35C4C6FE9FAE62D6FE /* NSNumber+Times.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Times.m"; path = "IKCore/NSNumber/NSNumber+Times.m"; sourceTree = "<group>"; };
+		B75A5E1A97AA97ACF73BC6508FBA6CA7 /* NSArray+Take.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Take.h"; path = "IKCore/NSArray/NSArray+Take.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAA82E0E3271B54BF1A4547FFFD0A235 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BF5BDA72118FBA2A6969112544BFAFEC /* NSDate+StringFormatting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+StringFormatting.m"; path = "IKCore/NSDate/NSDate+StringFormatting.m"; sourceTree = "<group>"; };
+		C721F7F9F669340954EFD8654BDBA758 /* NSDate+TimeBetween.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+TimeBetween.h"; path = "IKCore/NSDate/NSDate+TimeBetween.h"; sourceTree = "<group>"; };
+		C8F482B887974274EBA7312E9800D9FB /* NSError+Init.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+Init.m"; path = "IKCore/NSError/NSError+Init.m"; sourceTree = "<group>"; };
+		C9C7F98C10C28898B39B16F710586DF5 /* NSArray+Group.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Group.m"; path = "IKCore/NSArray/NSArray+Group.m"; sourceTree = "<group>"; };
+		CA8042349351788A73FE61A48F526AE6 /* Pods-IKMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IKMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9E55996D5230AD0B9B2259B9679BDA /* NSNumber+Logic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Logic.m"; path = "IKCore/NSNumber/NSNumber+Logic.m"; sourceTree = "<group>"; };
+		CC2D7E37AE51739BFDA32168F00DC540 /* NSDictionary+Filter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Filter.m"; path = "IKCore/NSDictionary/NSDictionary+Filter.m"; sourceTree = "<group>"; };
+		CD2981C18BD89C62DBEDDE3A25F26C0F /* NSDate+Shortcuts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Shortcuts.m"; path = "IKCore/NSDate/NSDate+Shortcuts.m"; sourceTree = "<group>"; };
+		CE5AFB4A318475C0E4D907FB52617B92 /* Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Device.h; path = IKCore/Device/Device.h; sourceTree = "<group>"; };
+		CED55FA35CD453C21975BCC68AD15E3D /* NSJSONSerialization+String.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+String.h"; path = "IKCore/NSJSONSerialization/NSJSONSerialization+String.h"; sourceTree = "<group>"; };
+		CFA4B7C1332F89A9D771EDF054D3FDF8 /* NSNumber+Padding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Padding.m"; path = "IKCore/NSNumber/NSNumber+Padding.m"; sourceTree = "<group>"; };
+		D10203505A26421332385C564170EFCA /* IKCore-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "IKCore-Private.xcconfig"; sourceTree = "<group>"; };
+		D89D78E8CA788839DCC0138116CADA13 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = IKCore/Vendor/Reachability/Reachability.h; sourceTree = "<group>"; };
+		DB20D3B18143BBFC26D2CA51583A33CD /* Pods-IKMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IKMapper.release.xcconfig"; sourceTree = "<group>"; };
+		DBB4370EF6571A1B4ED8A0E116C8FF2E /* IKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IKCore-dummy.m"; sourceTree = "<group>"; };
+		DC858456398AF4B61CE6B827307E4D11 /* Device.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Device.m; path = IKCore/Device/Device.m; sourceTree = "<group>"; };
+		E980A7BF4F3AEA3DD2B31FFF8BD3F22D /* Pods-IKMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IKMapper-dummy.m"; sourceTree = "<group>"; };
+		F0C8AEF341CC406E49BA00A483708685 /* NSJSONSerialization+String.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+String.m"; path = "IKCore/NSJSONSerialization/NSJSONSerialization+String.m"; sourceTree = "<group>"; };
+		F292E5103D37472F32633C0BE1C419C9 /* NSDate+Building.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Building.m"; path = "IKCore/NSDate/NSDate+Building.m"; sourceTree = "<group>"; };
+		F515048F7A46846CA3D4CE874EE0F020 /* NSObject+Null.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Null.h"; path = "IKCore/NSObject/NSObject+Null.h"; sourceTree = "<group>"; };
+		F520615010F8CDFDE264357A9593406A /* NSObject+Introspection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Introspection.h"; path = "IKCore/NSObject/NSObject+Introspection.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE0B7215FBAFBAC519D44678 /* Frameworks */ = {
+		273EB1747EE0D44D79B5F5E688906C1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA289990421C20BD0096E3E /* Foundation.framework in Frameworks */,
+				F5B606AA9B3AF23B260562130F3EAA32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F213844B79F4A341C80F3DCF /* Frameworks */ = {
+		4DA3F417AF7FC7665CBE3AAE8C49395A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092E0B93347248D70EA6D7F6 /* Foundation.framework in Frameworks */,
+				6EF2667FC17D5AD675FD563BBF28802C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74274FECB1B116E1C49646FB8B3519D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148BA5F77C84A90B21C6732A09D93608 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8F5E0453EFE4825CA1B8DD = {
+		4EDCD336F41A895E79FAD470C74AC96C /* ISO8601 */ = {
 			isa = PBXGroup;
 			children = (
-				4A00DA0F11A7F8DF44D16AEF /* Podfile */,
-				2CA47E9C17C7D1A38297FA9E /* Frameworks */,
-				B40C65810D5477B3D40AA97E /* Pods */,
-				B7681762966896D476FD073A /* Products */,
-				A68C0A37ED70204A3F9F4C2E /* Targets Support Files */,
+				5B2A60C442FF459EC8B4686DFC684BC8 /* ISO8601.h */,
+				B4A42DE0B5BC6169C86A06CC349E529E /* ISO8601Serialization.h */,
+				76E514E11D52810FD24C8F66FB7602C7 /* ISO8601Serialization.m */,
+				2ADC2441CA2F4CF32AD1CED393996646 /* NSDate+ISO8601.h */,
+				7B132070FB439B741EE8F8EF655C8F8F /* NSDate+ISO8601.m */,
+				BAEBCD127DD090E6AF628CC504858869 /* Support Files */,
 			);
+			path = ISO8601;
 			sourceTree = "<group>";
 		};
-		282EC9CAE9C3C2B149813EA8 /* IKCore */ = {
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BA5EA1599673B8B2FB2AAFFE /* DataStore.h */,
-				A602B49FAE90D2BA0D5339A8 /* DataStore.m */,
-				36155B7004F109819C1A5CB4 /* Decorators.h */,
-				15FC0506D037AB5328A433A1 /* Defines.h */,
-				94F12AE460050711ABC62B32 /* Device.h */,
-				8354079FA3EE3AA34F96B89D /* Device.m */,
-				42A1EB4C66954ADB7D8C094E /* KCMutableDictionary.h */,
-				D966459857A27D6B076605F8 /* KCMutableDictionary.m */,
-				DDD96F89045D61012A370812 /* MultiSort.h */,
-				0CE4237A0FA5E343E2C1DA36 /* MultiSort.m */,
-				435D94E089773290BDB8CD4F /* NSArray+All.h */,
-				BE10CC98A6F05469E6B86656 /* NSArray+All.m */,
-				D953F675E909BB37A33B94A4 /* NSArray+Filter.h */,
-				26BFA33514710A98C40CA255 /* NSArray+Filter.m */,
-				ABD4B11137D10FCECF1B1E4D /* NSArray+First.h */,
-				B0DF25DCF2259B888223AFC1 /* NSArray+First.m */,
-				DFBCF83AF93FEF8FCDB1FA5C /* NSArray+Group.h */,
-				2DD6CD365FF76FF1AFE7437E /* NSArray+Group.m */,
-				88D791023517ACB729B81C2D /* NSArray+HeadTail.h */,
-				10DA8B687B875B2DCB6D8384 /* NSArray+HeadTail.m */,
-				892AEBC1594270D051D16DB3 /* NSArray+Map.h */,
-				5AB9316EDC1F15FBA1866704 /* NSArray+Map.m */,
-				50DBF4769597852E396077AD /* NSArray+Reduce.h */,
-				0107BBE0748C445E2F93C3FB /* NSArray+Reduce.m */,
-				9B6D70C3656A834605D149E9 /* NSArray+Take.h */,
-				52CA2F7D2A2211DBB3EEB028 /* NSArray+Take.m */,
-				72689895FB525D44A61C91F4 /* NSArray+Unique.h */,
-				26B9AD2A0C60AE50509936D4 /* NSArray+Unique.m */,
-				55E3C2DEF800F2B1D9BC07EA /* NSArray+Variadic.h */,
-				D0E393547F980A5FBE35AB50 /* NSArray+Variadic.m */,
-				8FDC36242F6D6C713695B506 /* NSDate+Building.h */,
-				3AB1DE2386E0BC612CB63786 /* NSDate+Building.m */,
-				037FC9DD95EC0213E30AF663 /* NSDate+Shortcuts.h */,
-				834FED3BFD0F151AC0B8F2D8 /* NSDate+Shortcuts.m */,
-				1DB2FBC8219B7C219E859975 /* NSDate+StringFormatting.h */,
-				D2C0657BA6147BBD2CEC4A91 /* NSDate+StringFormatting.m */,
-				8F70B2FF0B9737BDBBBEEA7F /* NSDate+TimeBetween.h */,
-				6FB60AFB29819040B3988F3D /* NSDate+TimeBetween.m */,
-				9F3D61963D301DD71ED61B29 /* NSDictionary+Filter.h */,
-				1078932EA50EE589E1380917 /* NSDictionary+Filter.m */,
-				716517CDB9D6AD3A8957EFF2 /* NSError+Init.h */,
-				6018A04DF879821F7C1192F4 /* NSError+Init.m */,
-				28A50D2407390CD1A8D50D45 /* NSJSONSerialization+String.h */,
-				63EBB58051330560212EB6C5 /* NSJSONSerialization+String.m */,
-				3349834A12B8A325F4A35B80 /* NSMutableSet+ThreadSafe.h */,
-				E1CBC86D73C32853F791F5BA /* NSMutableSet+ThreadSafe.m */,
-				FB82D1D8D0022FC9116A50F6 /* NSNumber+DurationString.h */,
-				E701CABB65C6067B5460A269 /* NSNumber+DurationString.m */,
-				9F48E0A9A92C05D55E20A2C6 /* NSNumber+Logic.h */,
-				4E288F3209B1B156BB6F7246 /* NSNumber+Logic.m */,
-				427B62D52627214C7DE580F6 /* NSNumber+Padding.h */,
-				94D963DE493640AF33AFEFCC /* NSNumber+Padding.m */,
-				AC120784A60A92465DE3C67C /* NSNumber+ReadableDurations.h */,
-				C177FFFCD4965E7110869972 /* NSNumber+ReadableDurations.m */,
-				FD8D1152333AA40664A3E879 /* NSNumber+Times.h */,
-				6D8CE5F8A10B29671BF5572E /* NSNumber+Times.m */,
-				6EFF5A3935CC9AE5A4910C81 /* NSObject+Introspection.h */,
-				B7AF2A82036CE426C4A27633 /* NSObject+Introspection.m */,
-				3E0F4E943DAA39E46C2F1177 /* NSObject+Map.h */,
-				8791319956C5BEAF8E69F7BE /* NSObject+Map.m */,
-				A6AF2D43F182F627045828D4 /* NSObject+Null.h */,
-				2F36EBB314E9A6BB7CD15093 /* NSObject+Null.m */,
-				ECB575773AF27512484C5A60 /* NSSet+Map.h */,
-				44DCF22E7FAC2FF96D30AB36 /* NSSet+Map.m */,
-				9391A7DEF54768A86352EFD1 /* Reachability.h */,
-				2D98C4564E506019C5307740 /* Reachability.m */,
-				9A04C4952953D5D75BB911B7 /* Support Files */,
-			);
-			path = IKCore;
-			sourceTree = "<group>";
-		};
-		2CA47E9C17C7D1A38297FA9E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2D584AA93897D6E5E42E7811 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2D584AA93897D6E5E42E7811 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B63AF80EE47D2DA4A351FA90 /* Foundation.framework */,
+				BAA82E0E3271B54BF1A4547FFFD0A235 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5E12ED856259B7B06601A8C7 /* Pods-IKMapper */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				A3493EF54B541DA21162ED39 /* Pods-IKMapper-acknowledgements.markdown */,
-				4749328BCE6A30BB39A38ED9 /* Pods-IKMapper-acknowledgements.plist */,
-				072BD1FC84C11D9D16CB7E01 /* Pods-IKMapper-dummy.m */,
-				D659FEF9192021DA164ABA15 /* Pods-IKMapper-environment.h */,
-				8F1EF43269D46546C454106C /* Pods-IKMapper-resources.sh */,
-				986B55E50E87035EBC2902FD /* Pods-IKMapper.debug.xcconfig */,
-				78B9BB912B49FE450F5D9B8B /* Pods-IKMapper.release.xcconfig */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9CA77A42D5CC8ACA1EDAE0932D9E6C80 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				94181703F312BAEBCF99207049717E36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D3EC443A6A3A7DA1381CEDE04BDF67A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FD66FEAE76544FE95A9102F421070A9 /* IKCore.xcconfig */,
+				D10203505A26421332385C564170EFCA /* IKCore-Private.xcconfig */,
+				DBB4370EF6571A1B4ED8A0E116C8FF2E /* IKCore-dummy.m */,
+				38DCB700D1E4FE746BF0ACE71D1ECF35 /* IKCore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IKCore";
+			sourceTree = "<group>";
+		};
+		94181703F312BAEBCF99207049717E36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8F4D9F6EED943F8307AE6F0A250CDF2 /* Pods-IKMapper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9CA77A42D5CC8ACA1EDAE0932D9E6C80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACEEB1DF932407FCCDEEDBD313326E33 /* IKCore */,
+				4EDCD336F41A895E79FAD470C74AC96C /* ISO8601 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACEEB1DF932407FCCDEEDBD313326E33 /* IKCore */ = {
+			isa = PBXGroup;
+			children = (
+				75B32F4F398E7159C446E0F84B91D38B /* DataStore.h */,
+				A4E360FFD9D71AAC69E68D812EE12BA3 /* DataStore.m */,
+				B294590341BC89E2D238460B4BC9F144 /* Decorators.h */,
+				1990BA359E454B2DE094E3883F0A07C8 /* Defines.h */,
+				CE5AFB4A318475C0E4D907FB52617B92 /* Device.h */,
+				DC858456398AF4B61CE6B827307E4D11 /* Device.m */,
+				ABA1DE7306E612E3801D6D198280FD90 /* KCMutableDictionary.h */,
+				6470086DA4AE43C5A8ACFBAE96949F87 /* KCMutableDictionary.m */,
+				AD84079D11295152B8A54294E1095F32 /* MultiSort.h */,
+				1D1B1D92E46AF9F4E5CAD249B3ABD58F /* MultiSort.m */,
+				62C5FDDBBDF77A4B929BFC0C44E7DCF0 /* NSArray+All.h */,
+				712814693C9226E00B081CF7EB5A828E /* NSArray+All.m */,
+				0C9604F8AC63C3E5C068B35DBDB9030A /* NSArray+Filter.h */,
+				6A7C6491D28D5D54591CD6086B87A372 /* NSArray+Filter.m */,
+				A3BD982FB699B2CA906249A1D5BC39C2 /* NSArray+First.h */,
+				1BBFE21B693DAB01C36B175E0C4E0976 /* NSArray+First.m */,
+				83CDD8770E530E3703CBCB327147FC0B /* NSArray+Group.h */,
+				C9C7F98C10C28898B39B16F710586DF5 /* NSArray+Group.m */,
+				48F057ED4D45E7B8EEE4088CF46883FC /* NSArray+HeadTail.h */,
+				8146FD52868C0C3064E19B50820D9EDE /* NSArray+HeadTail.m */,
+				315075BE308E788C54E71F4A33F6AF81 /* NSArray+Map.h */,
+				5A7449129D16E50CE5B7A3C78907A03E /* NSArray+Map.m */,
+				83160FE625604166906AF5E6C0526844 /* NSArray+Reduce.h */,
+				B646984C41DBEF9F572A6B7F450215BE /* NSArray+Reduce.m */,
+				B75A5E1A97AA97ACF73BC6508FBA6CA7 /* NSArray+Take.h */,
+				4D5CA5789B1651E054C33B610E4F1274 /* NSArray+Take.m */,
+				85A09DFD853F22BD4D4C5F7CE722BDD9 /* NSArray+Unique.h */,
+				6A5F89EA4F63D908CA9C98E57DDDFFC3 /* NSArray+Unique.m */,
+				245E2D7EC8B355A79C2D7E1091DFF1EB /* NSArray+Variadic.h */,
+				6545536FEA03CC0E8118AAA8F64E5CD8 /* NSArray+Variadic.m */,
+				315BCFE47CD6CB54A33B992220C91D5D /* NSDate+Building.h */,
+				F292E5103D37472F32633C0BE1C419C9 /* NSDate+Building.m */,
+				3044C2C2794C45DCF5C4D11C11E6AAA5 /* NSDate+Shortcuts.h */,
+				CD2981C18BD89C62DBEDDE3A25F26C0F /* NSDate+Shortcuts.m */,
+				5408D98D7C1AEF3B6A81BE92E4E8EA65 /* NSDate+StringFormatting.h */,
+				BF5BDA72118FBA2A6969112544BFAFEC /* NSDate+StringFormatting.m */,
+				C721F7F9F669340954EFD8654BDBA758 /* NSDate+TimeBetween.h */,
+				B26C0784707471E4A935782249910593 /* NSDate+TimeBetween.m */,
+				3073A9DEF62E6BFA0C3085FB3479B4E5 /* NSDictionary+Filter.h */,
+				CC2D7E37AE51739BFDA32168F00DC540 /* NSDictionary+Filter.m */,
+				ACF104E59505C6BDEB31DDC92D57B90D /* NSError+Init.h */,
+				C8F482B887974274EBA7312E9800D9FB /* NSError+Init.m */,
+				CED55FA35CD453C21975BCC68AD15E3D /* NSJSONSerialization+String.h */,
+				F0C8AEF341CC406E49BA00A483708685 /* NSJSONSerialization+String.m */,
+				07DD5C52E2A446A2DA1DEA5B13D2CE5B /* NSMutableSet+ThreadSafe.h */,
+				2DE506FCD2BDF2731570882CEFCB93D5 /* NSMutableSet+ThreadSafe.m */,
+				8FC7C97F3DB5150613A2C9CB030C65A2 /* NSNumber+DurationString.h */,
+				75105AC9A25F19702464F49B6E0AA230 /* NSNumber+DurationString.m */,
+				929D7ACF55C2F0703FD8169EAA1780CD /* NSNumber+Logic.h */,
+				CB9E55996D5230AD0B9B2259B9679BDA /* NSNumber+Logic.m */,
+				58FB468B370EBF1A13416F7C63CE7440 /* NSNumber+Padding.h */,
+				CFA4B7C1332F89A9D771EDF054D3FDF8 /* NSNumber+Padding.m */,
+				17867E3C65DF0D6444AB4F2AABF3DA4B /* NSNumber+ReadableDurations.h */,
+				2548BBC5D8B61C52B700DF3E138D6071 /* NSNumber+ReadableDurations.m */,
+				7E134584A4455466A710A83C34284F42 /* NSNumber+Times.h */,
+				B6BE7B618A85AC35C4C6FE9FAE62D6FE /* NSNumber+Times.m */,
+				F520615010F8CDFDE264357A9593406A /* NSObject+Introspection.h */,
+				095238E49F4EE59BA356A6C804A499F6 /* NSObject+Introspection.m */,
+				2FFA33B984FD097A026A186A5BAB36DD /* NSObject+Map.h */,
+				57038ED316F07FD83E833C3235C04578 /* NSObject+Map.m */,
+				F515048F7A46846CA3D4CE874EE0F020 /* NSObject+Null.h */,
+				3D58617A43D78D82A788E428362AAD8E /* NSObject+Null.m */,
+				20B8886FBA13953926E6775C8D0505C1 /* NSSet+Map.h */,
+				9B2A66E9086D4F95EABCF2422822906F /* NSSet+Map.m */,
+				D89D78E8CA788839DCC0138116CADA13 /* Reachability.h */,
+				6BDA9A151222F7F1ADAFF49E02D72548 /* Reachability.m */,
+				8D3EC443A6A3A7DA1381CEDE04BDF67A /* Support Files */,
+			);
+			path = IKCore;
+			sourceTree = "<group>";
+		};
+		BAEBCD127DD090E6AF628CC504858869 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2823A0E7A8A4B2ECD9D02D871DBD087C /* ISO8601.xcconfig */,
+				33A2EEB667F4C394053C437CA00517CD /* ISO8601-Private.xcconfig */,
+				B2113CCDEA706D42BA2E381B6E14E1D4 /* ISO8601-dummy.m */,
+				8A15DFB8F9841112373E289D318E8A4F /* ISO8601-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISO8601";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8F4D9F6EED943F8307AE6F0A250CDF2 /* Pods-IKMapper */ = {
+			isa = PBXGroup;
+			children = (
+				4E5FF23B051E7FCD239A606E514E95CD /* Pods-IKMapper-acknowledgements.markdown */,
+				6D47E96AF53C1AA131340675DE23E7EB /* Pods-IKMapper-acknowledgements.plist */,
+				E980A7BF4F3AEA3DD2B31FFF8BD3F22D /* Pods-IKMapper-dummy.m */,
+				941C303F8CE8784A74066CC93DFFDCFB /* Pods-IKMapper-resources.sh */,
+				CA8042349351788A73FE61A48F526AE6 /* Pods-IKMapper.debug.xcconfig */,
+				DB20D3B18143BBFC26D2CA51583A33CD /* Pods-IKMapper.release.xcconfig */,
 			);
 			name = "Pods-IKMapper";
 			path = "Target Support Files/Pods-IKMapper";
 			sourceTree = "<group>";
 		};
-		9A04C4952953D5D75BB911B7 /* Support Files */ = {
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EED984DA9B8831697EF67766 /* Pods-IKMapper-IKCore.xcconfig */,
-				6E9983252C7332EB8B438A7C /* Pods-IKMapper-IKCore-Private.xcconfig */,
-				8C087196F5B43A897B91E18D /* Pods-IKMapper-IKCore-dummy.m */,
-				AF2B3BBB91448AF5E9544F6D /* Pods-IKMapper-IKCore-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-IKMapper-IKCore";
-			sourceTree = "<group>";
-		};
-		A68C0A37ED70204A3F9F4C2E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E12ED856259B7B06601A8C7 /* Pods-IKMapper */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B40C65810D5477B3D40AA97E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				282EC9CAE9C3C2B149813EA8 /* IKCore */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B7681762966896D476FD073A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8189FAA40FAEFDB2450364D0 /* libPods-IKMapper.a */,
-				8064F40251204ECC8E21C05D /* libPods-IKMapper-IKCore.a */,
+				54D242208C24C18AC5A1C7E363D0545C /* libIKCore.a */,
+				08E6D705171E45B200D65B5BAFA696E7 /* libISO8601.a */,
+				79D9D420656F7E254978C615255BE8E9 /* libPods-IKMapper.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -349,172 +406,300 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BB9FEFE86EEDA761B5BF3F33 /* Headers */ = {
+		38A8FC7AAF70778C3782782F7516F569 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6922D7DDFE91D9F0988D042 /* DataStore.h in Headers */,
-				F73607A548FF73A6E35DCF70 /* Decorators.h in Headers */,
-				1EECB96FDC330F50045FB124 /* Defines.h in Headers */,
-				A3CC7D244F43868581A7EDBA /* Device.h in Headers */,
-				6C5B0202CE9B569420BDCBEA /* KCMutableDictionary.h in Headers */,
-				F84670952FC7B1E925D72CBF /* MultiSort.h in Headers */,
-				0900DC923FBA521379B0066B /* NSArray+All.h in Headers */,
-				3F2A5AAE36B6383C6BCB261E /* NSArray+Filter.h in Headers */,
-				DFE468AC1368BA2F76AD0762 /* NSArray+First.h in Headers */,
-				53C9BE84191C4167FEEDAC28 /* NSArray+Group.h in Headers */,
-				A1AF5931E15D39CAF14B8E08 /* NSArray+HeadTail.h in Headers */,
-				44B157EFC7437BA5D95480C9 /* NSArray+Map.h in Headers */,
-				4370A8C5F0F9DE7983D30773 /* NSArray+Reduce.h in Headers */,
-				F0AFE0306199F697135EF1E2 /* NSArray+Take.h in Headers */,
-				8D849A232FA2CB6A5D119CFC /* NSArray+Unique.h in Headers */,
-				78979B3250507ED89248CB6D /* NSArray+Variadic.h in Headers */,
-				19671E8DE27671502F47DB63 /* NSDate+Building.h in Headers */,
-				0ADC9B9620B902DE490A0B20 /* NSDate+Shortcuts.h in Headers */,
-				FA015012C1323A9F2334FE54 /* NSDate+StringFormatting.h in Headers */,
-				5A7F2886DCD759EAFEDA4478 /* NSDate+TimeBetween.h in Headers */,
-				75EB77F027C5A0DA989A9C42 /* NSDictionary+Filter.h in Headers */,
-				78A06A551DEE7B9BB682836B /* NSError+Init.h in Headers */,
-				401F3B791B00EDAF30B9555F /* NSJSONSerialization+String.h in Headers */,
-				F082D5FEF75A06614EAC91EA /* NSMutableSet+ThreadSafe.h in Headers */,
-				045D91F6863DE564A6CBCAEA /* NSNumber+DurationString.h in Headers */,
-				F05FC384C14B49D21972F2B3 /* NSNumber+Logic.h in Headers */,
-				F14ECD1284AB1836B96F416C /* NSNumber+Padding.h in Headers */,
-				4A32D446FF12CD31B942887D /* NSNumber+ReadableDurations.h in Headers */,
-				451CE7391BFED52D67AF74D0 /* NSNumber+Times.h in Headers */,
-				D680BEA3B4AF15B73A797BF5 /* NSObject+Introspection.h in Headers */,
-				2AFEFE2D3F70935E29975C37 /* NSObject+Map.h in Headers */,
-				F93E98DB903A1AAD431C9E4D /* NSObject+Null.h in Headers */,
-				52AD8F8CF604782829ED12EE /* NSSet+Map.h in Headers */,
-				A7410F205B099B159586C9BE /* Reachability.h in Headers */,
+				C3D522FE1281C396CDE552741E3DB067 /* DataStore.h in Headers */,
+				F6F74EA0DDED8122313CC175289A19E3 /* Decorators.h in Headers */,
+				6DB6183200193FE845AB4E2DA1D9D7BC /* Defines.h in Headers */,
+				97FD84A322F59530A4B2456A82259A82 /* Device.h in Headers */,
+				7DF75756B6778021469D382B9FB1C4AE /* KCMutableDictionary.h in Headers */,
+				72F328300DE9E95DBBFDD6F130A475F0 /* MultiSort.h in Headers */,
+				461322B39BD06318298CF9F7DA9A84B9 /* NSArray+All.h in Headers */,
+				3ECB53B11A3FB6A202957497FD748677 /* NSArray+Filter.h in Headers */,
+				FBB4F3A723660F9000EE0A6FADEC39DD /* NSArray+First.h in Headers */,
+				7C8897C49985E0591A82D0CA7F93C7C1 /* NSArray+Group.h in Headers */,
+				104CAB5DB848BF9AA172AB4142C306A7 /* NSArray+HeadTail.h in Headers */,
+				F15F45A2C84584C7ABA9B528A400003C /* NSArray+Map.h in Headers */,
+				AE5CBB2D28DC65D7077031DFD74D9892 /* NSArray+Reduce.h in Headers */,
+				CE43013C02710115B59FC244FCA98CD2 /* NSArray+Take.h in Headers */,
+				822584BD740C0E82955BE7D9216F091E /* NSArray+Unique.h in Headers */,
+				97437874C0646817ACDD233704150A45 /* NSArray+Variadic.h in Headers */,
+				80B9DA6DEF2E452C72F87127898CA7E7 /* NSDate+Building.h in Headers */,
+				527FC0B02C3833C7CC3571E40DD39B38 /* NSDate+Shortcuts.h in Headers */,
+				8DA39007C31753612FE0049288BCDF98 /* NSDate+StringFormatting.h in Headers */,
+				57E550DF52AE560A6FD77D0B56EE8195 /* NSDate+TimeBetween.h in Headers */,
+				90A33482F105591172BC499814CE4274 /* NSDictionary+Filter.h in Headers */,
+				402371F4FB9923F1ECF93A31E822C7DA /* NSError+Init.h in Headers */,
+				958F4527A1EB83CE4B74F9CB35D53D0F /* NSJSONSerialization+String.h in Headers */,
+				2ED3A783DF43878F6CF848C6D5D1B40A /* NSMutableSet+ThreadSafe.h in Headers */,
+				FB69F133BE84CBA6743BD9F188148736 /* NSNumber+DurationString.h in Headers */,
+				979677D1B81B2D477E2ADE35ED188807 /* NSNumber+Logic.h in Headers */,
+				7CC34AA812FFCC4E0EE6546BB80C6E27 /* NSNumber+Padding.h in Headers */,
+				23FEE799DA89F731B8222556E14D32FA /* NSNumber+ReadableDurations.h in Headers */,
+				3347C83A21761B14D979D37C99BA1DBD /* NSNumber+Times.h in Headers */,
+				BF2E7FE268EAAE751424D17DF12AA309 /* NSObject+Introspection.h in Headers */,
+				0BE483DC9C525F37738D4A29316C94D1 /* NSObject+Map.h in Headers */,
+				D8E28064D6B986B844EA75E5313C40EA /* NSObject+Null.h in Headers */,
+				9E39A1F2021D68739C781DC678472F05 /* NSSet+Map.h in Headers */,
+				DC89878C8AA84A45141527FF638FEE7C /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD13F1F801C7621ED6C4F77CB695FF5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CB87E611A4AF9DC791EDE72BE6DC2F /* ISO8601.h in Headers */,
+				4F663B144D77DE0AFAD00F9C7D4B8B3E /* ISO8601Serialization.h in Headers */,
+				A4F960E7701BC7C9B0EE538179E6A1F2 /* NSDate+ISO8601.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3DA97D946EEF6A8D2B032C5C /* Pods-IKMapper */ = {
+		3FB052E24FC21B6B042C70B413201238 /* ISO8601 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECC2BCA2021C613CC009F656 /* Build configuration list for PBXNativeTarget "Pods-IKMapper" */;
+			buildConfigurationList = 5C4BA157707CCB3F3C0881CB2A821A69 /* Build configuration list for PBXNativeTarget "ISO8601" */;
 			buildPhases = (
-				52E7E006F3D77AAB8657F278 /* Sources */,
-				F213844B79F4A341C80F3DCF /* Frameworks */,
+				527ED4E896E949A1793B7822E2A5C796 /* Sources */,
+				273EB1747EE0D44D79B5F5E688906C1D /* Frameworks */,
+				CD13F1F801C7621ED6C4F77CB695FF5D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				29B51DC7DE077E3A1A507AA0 /* PBXTargetDependency */,
+			);
+			name = ISO8601;
+			productName = ISO8601;
+			productReference = 08E6D705171E45B200D65B5BAFA696E7 /* libISO8601.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2F4EB84F745A9A0B35C99A12BB8C57C /* IKCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2DE270CFB4FCBC38112F35D09DFB3A /* Build configuration list for PBXNativeTarget "IKCore" */;
+			buildPhases = (
+				9D2A20C0000E72BC9BECFFD99FDB874E /* Sources */,
+				74274FECB1B116E1C49646FB8B3519D9 /* Frameworks */,
+				38A8FC7AAF70778C3782782F7516F569 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKCore;
+			productName = IKCore;
+			productReference = 54D242208C24C18AC5A1C7E363D0545C /* libIKCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EEB43391785B6A165AFC539D3B34821C /* Pods-IKMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C0DD59468623A9950E650096CF60F0 /* Build configuration list for PBXNativeTarget "Pods-IKMapper" */;
+			buildPhases = (
+				8F7ED4EBEFEFE1C053751C18B5B94E0C /* Sources */,
+				4DA3F417AF7FC7665CBE3AAE8C49395A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EEED71DAE4133EE41FFB1A7157F6F9B /* PBXTargetDependency */,
+				CD44C42319461E3F57075750EFE6B316 /* PBXTargetDependency */,
 			);
 			name = "Pods-IKMapper";
 			productName = "Pods-IKMapper";
-			productReference = 8189FAA40FAEFDB2450364D0 /* libPods-IKMapper.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CE536534E85A2D2CB842F0B8 /* Pods-IKMapper-IKCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65514F9DB41C9993D962E033 /* Build configuration list for PBXNativeTarget "Pods-IKMapper-IKCore" */;
-			buildPhases = (
-				883A597818653BBE52685566 /* Sources */,
-				BE0B7215FBAFBAC519D44678 /* Frameworks */,
-				BB9FEFE86EEDA761B5BF3F33 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-IKMapper-IKCore";
-			productName = "Pods-IKMapper-IKCore";
-			productReference = 8064F40251204ECC8E21C05D /* libPods-IKMapper-IKCore.a */;
+			productReference = 79D9D420656F7E254978C615255BE8E9 /* libPods-IKMapper.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5BD582EF66F2F1A2A4E3788D /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 975629523B20AE58687863CB /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0F8F5E0453EFE4825CA1B8DD;
-			productRefGroup = B7681762966896D476FD073A /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DA97D946EEF6A8D2B032C5C /* Pods-IKMapper */,
-				CE536534E85A2D2CB842F0B8 /* Pods-IKMapper-IKCore */,
+				B2F4EB84F745A9A0B35C99A12BB8C57C /* IKCore */,
+				3FB052E24FC21B6B042C70B413201238 /* ISO8601 */,
+				EEB43391785B6A165AFC539D3B34821C /* Pods-IKMapper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52E7E006F3D77AAB8657F278 /* Sources */ = {
+		527ED4E896E949A1793B7822E2A5C796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB855658D7ED32FFED63CE87 /* Pods-IKMapper-dummy.m in Sources */,
+				9F2C790212EF4973F4C4766C4CB2AB87 /* ISO8601-dummy.m in Sources */,
+				551F1718279D01AA0603FB5B44C67137 /* ISO8601Serialization.m in Sources */,
+				DAE3E65519E4DC586B3EAD8D0B3D55AD /* NSDate+ISO8601.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		883A597818653BBE52685566 /* Sources */ = {
+		8F7ED4EBEFEFE1C053751C18B5B94E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B291A6DD8BB0444D1290EE58 /* DataStore.m in Sources */,
-				888ABAF75AE64F64A485AC8B /* Device.m in Sources */,
-				F648C06D3DB758A599F96DEF /* KCMutableDictionary.m in Sources */,
-				380E20BD95E02F628755FCD3 /* MultiSort.m in Sources */,
-				7956BF8669A6CBD20C1E2D10 /* NSArray+All.m in Sources */,
-				94DB91E995CECB3736E865A0 /* NSArray+Filter.m in Sources */,
-				DE8F487538EFB36E17AF9B19 /* NSArray+First.m in Sources */,
-				328EE0603C2DEEC867473C5A /* NSArray+Group.m in Sources */,
-				5A4BAA579C749E27503BCBF4 /* NSArray+HeadTail.m in Sources */,
-				2DB426F20A0B5F9CC82847CA /* NSArray+Map.m in Sources */,
-				5255C2733DFE2B2F5F1DAEF5 /* NSArray+Reduce.m in Sources */,
-				A4AB669FCCA947D609FB1A9D /* NSArray+Take.m in Sources */,
-				494270A420D77FA500357CE2 /* NSArray+Unique.m in Sources */,
-				520D5160D45EE44C5373A751 /* NSArray+Variadic.m in Sources */,
-				DA66D19B0D84D3A16918C1BB /* NSDate+Building.m in Sources */,
-				072D34DC5BDC3BC0D0D87EC3 /* NSDate+Shortcuts.m in Sources */,
-				B256BA85E5D7C0EBBCA7E894 /* NSDate+StringFormatting.m in Sources */,
-				AE41631C93DFA25468C7CDC6 /* NSDate+TimeBetween.m in Sources */,
-				3D933DDBB4FE9525B7BB1AED /* NSDictionary+Filter.m in Sources */,
-				2D8C61FEDD4EFBFEB8F1569F /* NSError+Init.m in Sources */,
-				87C13E85964A57E19FDCE533 /* NSJSONSerialization+String.m in Sources */,
-				EE47CA29905E86A6BCBF6B76 /* NSMutableSet+ThreadSafe.m in Sources */,
-				5D29E10A3B93AE8E072E6D5A /* NSNumber+DurationString.m in Sources */,
-				FE44A38D85A0C0D40104BABE /* NSNumber+Logic.m in Sources */,
-				8EE507791B5DCDF4CB5B9B48 /* NSNumber+Padding.m in Sources */,
-				DFFDBB16A334EF803712E487 /* NSNumber+ReadableDurations.m in Sources */,
-				835DF37DF971396CB3DA8E90 /* NSNumber+Times.m in Sources */,
-				A23C4B1F183817D6EF292CBE /* NSObject+Introspection.m in Sources */,
-				187FCB0C60BD386F3E62A21A /* NSObject+Map.m in Sources */,
-				0092E993D413907EB69C998D /* NSObject+Null.m in Sources */,
-				1B0538B4DA5548AC30D4290C /* NSSet+Map.m in Sources */,
-				903BB3FF69B4D4A363809197 /* Pods-IKMapper-IKCore-dummy.m in Sources */,
-				1321388272B22A29B259A2A6 /* Reachability.m in Sources */,
+				3638F08A521AFC5CD54415F93DDF20B2 /* Pods-IKMapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2A20C0000E72BC9BECFFD99FDB874E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049CCD430B96EE485A3B40146CBAB3E5 /* DataStore.m in Sources */,
+				ADE4C26E2CD575AA2DFA9B07FD4A9068 /* Device.m in Sources */,
+				B2852B8D7C1BE62C3280E9D0F76F0B06 /* IKCore-dummy.m in Sources */,
+				01EBF6D2E4C4B5AA2ABAED9C2F671110 /* KCMutableDictionary.m in Sources */,
+				DAF0D79A2455BB76504B4654A01356F2 /* MultiSort.m in Sources */,
+				E1FBBCFC39D9EA336BD8BBCDA7EEE027 /* NSArray+All.m in Sources */,
+				60DA64FACCA795C16847F2166B1D36CB /* NSArray+Filter.m in Sources */,
+				7C416E587E8F63BF3B85502DDCE8ACB6 /* NSArray+First.m in Sources */,
+				8ED661807B96E74A445904959E694F5D /* NSArray+Group.m in Sources */,
+				E9C667758731ACCD0D776BF0530E72E0 /* NSArray+HeadTail.m in Sources */,
+				E5F208A889F75CFC3CA3941476D4EC9E /* NSArray+Map.m in Sources */,
+				39848520CAF18276F283FEBEC5EE6997 /* NSArray+Reduce.m in Sources */,
+				C1DE91FBF783A7CD8CA1138EDEF30C7C /* NSArray+Take.m in Sources */,
+				D270F04B9544FA6D39BA7CE9C4CED945 /* NSArray+Unique.m in Sources */,
+				1350342F0C7D2CE41F32E4420439A2A8 /* NSArray+Variadic.m in Sources */,
+				D44BFBDC1CF0392426746C0B3E03C14C /* NSDate+Building.m in Sources */,
+				ED70CC6E35EE729B8EF6D5C5216AC5FE /* NSDate+Shortcuts.m in Sources */,
+				25594FE117F2F964E0B9D406B7008909 /* NSDate+StringFormatting.m in Sources */,
+				C253888AADCCE249642D4594C3E61964 /* NSDate+TimeBetween.m in Sources */,
+				3EB53C99D189C3FD87ECF89978797DF3 /* NSDictionary+Filter.m in Sources */,
+				3E8739366593E7435A925C3891C58B74 /* NSError+Init.m in Sources */,
+				916B4470471A0ADD629707379C38B194 /* NSJSONSerialization+String.m in Sources */,
+				95C29E1A6B223E13C1DCDFADC8BB4F0E /* NSMutableSet+ThreadSafe.m in Sources */,
+				AE4399E2FDC93A63C61D145FE55C838A /* NSNumber+DurationString.m in Sources */,
+				FC25E9B03010DC5A205353A957B1FB86 /* NSNumber+Logic.m in Sources */,
+				66101D775453FA9A6B1A9CC6FF2A957C /* NSNumber+Padding.m in Sources */,
+				DF53025DFDE1BB23040512EDA8918E01 /* NSNumber+ReadableDurations.m in Sources */,
+				279D64CFD4DF192A05E18913333DB7A0 /* NSNumber+Times.m in Sources */,
+				7CFA287294EA6D078504CEE19625CB0F /* NSObject+Introspection.m in Sources */,
+				46B5A7ED6D22D3CA9AC5525A35AD4759 /* NSObject+Map.m in Sources */,
+				2C94E0F0868E4DD7A20E1F430CFFE32B /* NSObject+Null.m in Sources */,
+				7B8DDA979D00DCA2978BB11320826E21 /* NSSet+Map.m in Sources */,
+				5C14E4668A06C10D9B2C58FD400093BF /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29B51DC7DE077E3A1A507AA0 /* PBXTargetDependency */ = {
+		9EEED71DAE4133EE41FFB1A7157F6F9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-IKMapper-IKCore";
-			target = CE536534E85A2D2CB842F0B8 /* Pods-IKMapper-IKCore */;
-			targetProxy = 8725D9B94C611A2DCF92084F /* PBXContainerItemProxy */;
+			name = IKCore;
+			target = B2F4EB84F745A9A0B35C99A12BB8C57C /* IKCore */;
+			targetProxy = D356F4049B5D2D389864A242C1CEBD2B /* PBXContainerItemProxy */;
+		};
+		CD44C42319461E3F57075750EFE6B316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISO8601;
+			target = 3FB052E24FC21B6B042C70B413201238 /* ISO8601 */;
+			targetProxy = 81725699EBE859F48ED410C45FDB1AB6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B55775BDEAFB71AE5856C03 /* Debug */ = {
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E668B0E5CE540A5AF625350B7CD7AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB20D3B18143BBFC26D2CA51583A33CD /* Pods-IKMapper.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6EFE02F0BC85AC4E28D643B3E8724E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A2EEB667F4C394053C437CA00517CD /* ISO8601-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601/ISO8601-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A22380D7CC421FC124BE4A9BF687ED1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10203505A26421332385C564170EFCA /* IKCore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IKCore/IKCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -553,9 +738,25 @@
 			};
 			name = Debug;
 		};
-		13459FA445E18985E15EE14D /* Debug */ = {
+		B55F33AB8E9320371A5F803138CD6CB7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 986B55E50E87035EBC2902FD /* Pods-IKMapper.debug.xcconfig */;
+			baseConfigurationReference = D10203505A26421332385C564170EFCA /* IKCore-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IKCore/IKCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D7FF802D57697191218A3472B5EA99C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8042349351788A73FE61A48F526AE6 /* Pods-IKMapper.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -569,62 +770,12 @@
 			};
 			name = Debug;
 		};
-		1DA0CA5F2D034E5701D66272 /* Release */ = {
+		FA15B205B66EC306BA62E35E3C5C1488 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		51FFF4E266FC3EFECF123BFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78B9BB912B49FE450F5D9B8B /* Pods-IKMapper.release.xcconfig */;
+			baseConfigurationReference = 33A2EEB667F4C394053C437CA00517CD /* ISO8601-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D07EC99F2231ACF4633E444F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E9983252C7332EB8B438A7C /* Pods-IKMapper-IKCore-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-IKMapper-IKCore/Pods-IKMapper-IKCore-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601/ISO8601-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -634,54 +785,47 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		E41266D3E78B6A8A3B787C37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E9983252C7332EB8B438A7C /* Pods-IKMapper-IKCore-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-IKMapper-IKCore/Pods-IKMapper-IKCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65514F9DB41C9993D962E033 /* Build configuration list for PBXNativeTarget "Pods-IKMapper-IKCore" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D07EC99F2231ACF4633E444F /* Debug */,
-				E41266D3E78B6A8A3B787C37 /* Release */,
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		975629523B20AE58687863CB /* Build configuration list for PBXProject "Pods" */ = {
+		4D2DE270CFB4FCBC38112F35D09DFB3A /* Build configuration list for PBXNativeTarget "IKCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B55775BDEAFB71AE5856C03 /* Debug */,
-				1DA0CA5F2D034E5701D66272 /* Release */,
+				A22380D7CC421FC124BE4A9BF687ED1D /* Debug */,
+				B55F33AB8E9320371A5F803138CD6CB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECC2BCA2021C613CC009F656 /* Build configuration list for PBXNativeTarget "Pods-IKMapper" */ = {
+		5C4BA157707CCB3F3C0881CB2A821A69 /* Build configuration list for PBXNativeTarget "ISO8601" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13459FA445E18985E15EE14D /* Debug */,
-				51FFF4E266FC3EFECF123BFA /* Release */,
+				FA15B205B66EC306BA62E35E3C5C1488 /* Debug */,
+				6EFE02F0BC85AC4E28D643B3E8724E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C0DD59468623A9950E650096CF60F0 /* Build configuration list for PBXNativeTarget "Pods-IKMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FF802D57697191218A3472B5EA99C8 /* Debug */,
+				6E668B0E5CE540A5AF625350B7CD7AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5BD582EF66F2F1A2A4E3788D /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
