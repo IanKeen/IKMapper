@@ -14,4 +14,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "7.0"
   
   spec.dependency 'IKCore', '~> 1.0'
+  spec.dependency 'ISO8601'
 end
