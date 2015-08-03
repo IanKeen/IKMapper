@@ -1,0 +1,10 @@
+PODS:
+  - IKCore (1.2)
+
+DEPENDENCIES:
+  - IKCore (~> 1.0)
+
+SPEC CHECKSUMS:
+  IKCore: adac0c5630064e08d6ed9b12f5a3bd9fb9ab870f
+
+COCOAPODS: 0.37.1

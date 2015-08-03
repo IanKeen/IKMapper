@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320DE30F1B6D35D0002236D7 /* IKMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE30E1B6D35D0002236D7 /* IKMapperTests.m */; };
+		320DE3251B6D3605002236D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE31B1B6D3605002236D7 /* AppDelegate.m */; };
+		320DE3261B6D3605002236D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 320DE31C1B6D3605002236D7 /* LaunchScreen.xib */; };
+		320DE3271B6D3605002236D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320DE31E1B6D3605002236D7 /* Main.storyboard */; };
+		320DE3281B6D3605002236D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320DE3201B6D3605002236D7 /* Images.xcassets */; };
+		320DE32A1B6D3605002236D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3221B6D3605002236D7 /* main.m */; };
+		320DE32B1B6D3605002236D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3241B6D3605002236D7 /* ViewController.m */; };
+		320DE32E1B6D3BEE002236D7 /* NSObject+IKMapperIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE32D1B6D3BEE002236D7 /* NSObject+IKMapperIn.m */; };
+		320DE3311B6D5700002236D7 /* NSObject+IKIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3301B6D5700002236D7 /* NSObject+IKIntrospection.m */; };
+		320DE33C1B6DE198002236D7 /* NSObject+IKMapperOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */; };
+		320DE3E51B6EF2AA002236D7 /* NSString+InflectorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E21B6EF2AA002236D7 /* NSString+InflectorKit.m */; };
+		320DE3E61B6EF2AA002236D7 /* TTTStringInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */; };
+		7B42251B880C73F5103B8923 /* libPods-IKMapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6523BD7EFE92E769438F7872 /* libPods-IKMapper.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		320DE3091B6D35D0002236D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320DE2E71B6D35D0002236D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320DE2EE1B6D35D0002236D7;
+			remoteInfo = IKMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320DE2EF1B6D35D0002236D7 /* IKMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		320DE3081B6D35D0002236D7 /* IKMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		320DE30D1B6D35D0002236D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320DE30E1B6D35D0002236D7 /* IKMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKMapperTests.m; sourceTree = "<group>"; };
+		320DE31A1B6D3605002236D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		320DE31B1B6D3605002236D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		320DE31D1B6D3605002236D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		320DE31F1B6D3605002236D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		320DE3201B6D3605002236D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		320DE3211B6D3605002236D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		320DE3221B6D3605002236D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		320DE3231B6D3605002236D7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		320DE3241B6D3605002236D7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		320DE32C1B6D3BEE002236D7 /* NSObject+IKMapperIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKMapperIn.h"; sourceTree = "<group>"; };
+		320DE32D1B6D3BEE002236D7 /* NSObject+IKMapperIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKMapperIn.m"; sourceTree = "<group>"; };
+		320DE32F1B6D5700002236D7 /* NSObject+IKIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKIntrospection.h"; sourceTree = "<group>"; };
+		320DE3301B6D5700002236D7 /* NSObject+IKIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKIntrospection.m"; sourceTree = "<group>"; };
+		320DE3321B6D7FA2002236D7 /* IKMapperProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKMapperProtocols.h; sourceTree = "<group>"; };
+		320DE33A1B6DE198002236D7 /* NSObject+IKMapperOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKMapperOut.h"; sourceTree = "<group>"; };
+		320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKMapperOut.m"; sourceTree = "<group>"; };
+		320DE3E11B6EF2AA002236D7 /* NSString+InflectorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InflectorKit.h"; sourceTree = "<group>"; };
+		320DE3E21B6EF2AA002236D7 /* NSString+InflectorKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InflectorKit.m"; sourceTree = "<group>"; };
+		320DE3E31B6EF2AA002236D7 /* TTTStringInflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTStringInflector.h; sourceTree = "<group>"; };
+		320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTStringInflector.m; sourceTree = "<group>"; };
+		6523BD7EFE92E769438F7872 /* libPods-IKMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3EBFDC66EE17B32AED295F /* Pods-IKMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-IKMapper/Pods-IKMapper.release.xcconfig"; sourceTree = "<group>"; };
+		BCED3B81204FFD8D9581652D /* Pods-IKMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKMapper/Pods-IKMapper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		320DE2EC1B6D35D0002236D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B42251B880C73F5103B8923 /* libPods-IKMapper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320DE3051B6D35D0002236D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320DE2E61B6D35D0002236D7 = {
+			isa = PBXGroup;
+			children = (
+				320DE3181B6D3605002236D7 /* IKMapper */,
+				320DE3191B6D3605002236D7 /* IKMapperUI */,
+				320DE30B1B6D35D0002236D7 /* IKMapperTests */,
+				320DE2F01B6D35D0002236D7 /* Products */,
+				34F6C75993488A1281FFEDF1 /* Pods */,
+				9FA8D4B34D361AC145018D0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		320DE2F01B6D35D0002236D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320DE2EF1B6D35D0002236D7 /* IKMapper.app */,
+				320DE3081B6D35D0002236D7 /* IKMapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320DE30B1B6D35D0002236D7 /* IKMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				320DE30E1B6D35D0002236D7 /* IKMapperTests.m */,
+				320DE30C1B6D35D0002236D7 /* Supporting Files */,
+			);
+			path = IKMapperTests;
+			sourceTree = "<group>";
+		};
+		320DE30C1B6D35D0002236D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				320DE30D1B6D35D0002236D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		320DE3181B6D3605002236D7 /* IKMapper */ = {
+			isa = PBXGroup;
+			children = (
+				320DE3E01B6EF2AA002236D7 /* Vendor */,
+				320DE3321B6D7FA2002236D7 /* IKMapperProtocols.h */,
+				320DE32F1B6D5700002236D7 /* NSObject+IKIntrospection.h */,
+				320DE3301B6D5700002236D7 /* NSObject+IKIntrospection.m */,
+				320DE32C1B6D3BEE002236D7 /* NSObject+IKMapperIn.h */,
+				320DE32D1B6D3BEE002236D7 /* NSObject+IKMapperIn.m */,
+				320DE33A1B6DE198002236D7 /* NSObject+IKMapperOut.h */,
+				320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */,
+			);
+			path = IKMapper;
+			sourceTree = "<group>";
+		};
+		320DE3191B6D3605002236D7 /* IKMapperUI */ = {
+			isa = PBXGroup;
+			children = (
+				320DE31A1B6D3605002236D7 /* AppDelegate.h */,
+				320DE31B1B6D3605002236D7 /* AppDelegate.m */,
+				320DE31C1B6D3605002236D7 /* LaunchScreen.xib */,
+				320DE31E1B6D3605002236D7 /* Main.storyboard */,
+				320DE3201B6D3605002236D7 /* Images.xcassets */,
+				320DE3211B6D3605002236D7 /* Info.plist */,
+				320DE3221B6D3605002236D7 /* main.m */,
+				320DE3231B6D3605002236D7 /* ViewController.h */,
+				320DE3241B6D3605002236D7 /* ViewController.m */,
+			);
+			path = IKMapperUI;
+			sourceTree = "<group>";
+		};
+		320DE3E01B6EF2AA002236D7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				320DE3E11B6EF2AA002236D7 /* NSString+InflectorKit.h */,
+				320DE3E21B6EF2AA002236D7 /* NSString+InflectorKit.m */,
+				320DE3E31B6EF2AA002236D7 /* TTTStringInflector.h */,
+				320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		34F6C75993488A1281FFEDF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCED3B81204FFD8D9581652D /* Pods-IKMapper.debug.xcconfig */,
+				AB3EBFDC66EE17B32AED295F /* Pods-IKMapper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FA8D4B34D361AC145018D0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6523BD7EFE92E769438F7872 /* libPods-IKMapper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320DE2EE1B6D35D0002236D7 /* IKMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320DE3121B6D35D0002236D7 /* Build configuration list for PBXNativeTarget "IKMapper" */;
+			buildPhases = (
+				0C16D7DDDBC47698204AF2A4 /* Check Pods Manifest.lock */,
+				320DE2EB1B6D35D0002236D7 /* Sources */,
+				320DE2EC1B6D35D0002236D7 /* Frameworks */,
+				320DE2ED1B6D35D0002236D7 /* Resources */,
+				A5170F4D902387AF6E9C0F6B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKMapper;
+			productName = IKMapper;
+			productReference = 320DE2EF1B6D35D0002236D7 /* IKMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		320DE3071B6D35D0002236D7 /* IKMapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320DE3151B6D35D0002236D7 /* Build configuration list for PBXNativeTarget "IKMapperTests" */;
+			buildPhases = (
+				320DE3041B6D35D0002236D7 /* Sources */,
+				320DE3051B6D35D0002236D7 /* Frameworks */,
+				320DE3061B6D35D0002236D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320DE30A1B6D35D0002236D7 /* PBXTargetDependency */,
+			);
+			name = IKMapperTests;
+			productName = IKMapperTests;
+			productReference = 320DE3081B6D35D0002236D7 /* IKMapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		320DE2E71B6D35D0002236D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Mustard;
+				TargetAttributes = {
+					320DE2EE1B6D35D0002236D7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					320DE3071B6D35D0002236D7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 320DE2EE1B6D35D0002236D7;
+					};
+				};
+			};
+			buildConfigurationList = 320DE2EA1B6D35D0002236D7 /* Build configuration list for PBXProject "IKMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 320DE2E61B6D35D0002236D7;
+			productRefGroup = 320DE2F01B6D35D0002236D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320DE2EE1B6D35D0002236D7 /* IKMapper */,
+				320DE3071B6D35D0002236D7 /* IKMapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		320DE2ED1B6D35D0002236D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320DE3281B6D3605002236D7 /* Images.xcassets in Resources */,
+				320DE3261B6D3605002236D7 /* LaunchScreen.xib in Resources */,
+				320DE3271B6D3605002236D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320DE3061B6D35D0002236D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C16D7DDDBC47698204AF2A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5170F4D902387AF6E9C0F6B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IKMapper/Pods-IKMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320DE2EB1B6D35D0002236D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320DE3E61B6EF2AA002236D7 /* TTTStringInflector.m in Sources */,
+				320DE3E51B6EF2AA002236D7 /* NSString+InflectorKit.m in Sources */,
+				320DE3311B6D5700002236D7 /* NSObject+IKIntrospection.m in Sources */,
+				320DE32B1B6D3605002236D7 /* ViewController.m in Sources */,
+				320DE32A1B6D3605002236D7 /* main.m in Sources */,
+				320DE32E1B6D3BEE002236D7 /* NSObject+IKMapperIn.m in Sources */,
+				320DE33C1B6DE198002236D7 /* NSObject+IKMapperOut.m in Sources */,
+				320DE3251B6D3605002236D7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320DE3041B6D35D0002236D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320DE30F1B6D35D0002236D7 /* IKMapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		320DE30A1B6D35D0002236D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320DE2EE1B6D35D0002236D7 /* IKMapper */;
+			targetProxy = 320DE3091B6D35D0002236D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		320DE31C1B6D3605002236D7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320DE31D1B6D3605002236D7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		320DE31E1B6D3605002236D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				320DE31F1B6D3605002236D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		320DE3101B6D35D0002236D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		320DE3111B6D35D0002236D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		320DE3131B6D35D0002236D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCED3B81204FFD8D9581652D /* Pods-IKMapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/IKMapperUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		320DE3141B6D35D0002236D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3EBFDC66EE17B32AED295F /* Pods-IKMapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/IKMapperUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		320DE3161B6D35D0002236D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKMapper.app/IKMapper";
+			};
+			name = Debug;
+		};
+		320DE3171B6D35D0002236D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKMapper.app/IKMapper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		320DE2EA1B6D35D0002236D7 /* Build configuration list for PBXProject "IKMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320DE3101B6D35D0002236D7 /* Debug */,
+				320DE3111B6D35D0002236D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320DE3121B6D35D0002236D7 /* Build configuration list for PBXNativeTarget "IKMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320DE3131B6D35D0002236D7 /* Debug */,
+				320DE3141B6D35D0002236D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320DE3151B6D35D0002236D7 /* Build configuration list for PBXNativeTarget "IKMapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320DE3161B6D35D0002236D7 /* Debug */,
+				320DE3171B6D35D0002236D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 320DE2E71B6D35D0002236D7 /* Project object */;
+}
