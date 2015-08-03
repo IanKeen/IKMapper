@@ -33,28 +33,35 @@
         id value = incomingDictionary[incomingKey];
         id incomingValue = [self incomingValue:value key:incomingKey];
         if (![NSObject nilOrEmpty:incomingValue]) {
-            [self mapValue:incomingValue to:property];
+            [self mapValue:incomingValue key:incomingKey to:property];
         }
     }];
 }
 
 #pragma mark - Private
--(void)mapValue:(id)value to:(IKProperty *)property {
+-(void)mapValue:(id)value key:(NSString *)key to:(IKProperty *)property {
     id result = value;
     
     if ([value isKindOfClass:[NSArray class]]) {
         Class class = [property.name inferredClass];
-        if (class != nil) {
+        Class incomingClass = [self incomingClass:class value:value key:key];
+        
+        if (incomingClass != nil) {
             result = [((NSArray *)value) map:^id(NSDictionary *item) {
                 if ([item isKindOfClass:[NSDictionary class]]) {
-                    return [class instanceFromDictionary:item];
+                    return [incomingClass instanceFromDictionary:item];
                 }
                 return nil;
             }];
         }
         
-    } else if ([value isKindOfClass:[NSDictionary class]] && property.object && property.inferredClass != nil) {
-        result = [property.inferredClass instanceFromDictionary:value];
+    } else if ([value isKindOfClass:[NSDictionary class]] && property.object) {
+        Class class = property.inferredClass;
+        Class incomingClass = [self incomingClass:class value:value key:key];
+        
+        if (incomingClass != nil) {
+            result = [property.inferredClass instanceFromDictionary:value];
+        }
     }
     
     [self setValue:result forKey:property.name];
@@ -81,5 +88,12 @@
         return [((id<IKMapperIncomingProtocol>)self) transformIncomingValue:value key:key];
     }
     return value;
+}
+-(Class)incomingClass:(Class)class value:(id)value key:(NSString *)key {
+    if ([self conformsToProtocol:@protocol(IKMapperIncomingProtocol)] &&
+        [self respondsToSelector:@selector(transformIncomingClass:value:key:)]) {
+        return [((id<IKMapperIncomingProtocol>)self) transformIncomingClass:class value:value key:key];
+    }
+    return class;
 }
 @end

@@ -13,6 +13,7 @@
 -(NSDictionary *)transformIncomingDictionary:(NSDictionary *)dictionary;
 -(NSString *)transformIncomingKey:(NSString *)key;
 -(id)transformIncomingValue:(id)value key:(NSString *)key;
+-(Class)transformIncomingClass:(Class)class value:(id)value key:(NSString *)key;
 @end
 
 @protocol IKMapperOutgoingProtocol <NSObject>
