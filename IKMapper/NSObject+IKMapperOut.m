@@ -23,7 +23,7 @@
     [properties enumerateObjectsUsingBlock:^(IKProperty *property, NSUInteger idx, BOOL *stop) {
         NSString *key = property.name;
         NSString *outgoingKey = [self outgoingKey:key];
-        if ([NSObject nilOrEmpty:outgoingKey]) {
+        if (![NSObject nilOrEmpty:outgoingKey]) {
             id value = [self valueFromProperty:property key:outgoingKey];
             if (![NSObject nilOrEmpty:value]) {
                 result[outgoingKey] = value;
