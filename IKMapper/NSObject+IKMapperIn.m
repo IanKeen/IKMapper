@@ -33,11 +33,11 @@
         NSString *incomingKey = [self incomingKey:key];
         
         id value = incomingDictionary[incomingKey];
-        id convertedValue = [self convertedValue:value property:property];
-        id incomingValue = [self incomingValue:convertedValue key:incomingKey];
+        id incomingValue = [self incomingValue:value key:incomingKey];
+        id convertedValue = [self convertedValue:incomingValue property:property];
         
-        if (![NSObject nilOrEmpty:incomingValue]) {
-            [self mapValue:incomingValue key:incomingKey to:property];
+        if (![NSObject nilOrEmpty:convertedValue]) {
+            [self mapValue:convertedValue key:incomingKey to:property];
         }
     }];
 }
