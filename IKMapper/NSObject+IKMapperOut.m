@@ -16,7 +16,7 @@
 @implementation NSObject (IKMapperOut)
 -(NSDictionary *)toDictionary {
     NSArray *properties = [[[self class] objectIKProperties] filter:^BOOL(IKProperty *property) {
-        return property.iVar;
+        return property.hasiVar;
     }];
     
     __block NSMutableDictionary *result = [NSMutableDictionary dictionary];
@@ -47,7 +47,7 @@
             }];
         }
         
-    } else if (property.object && property.inferredClass != nil) {
+    } else if (property.isCustomObject && property.inferredClass != nil) {
         outgoingValue = [outgoingValue toDictionary];
     }
     

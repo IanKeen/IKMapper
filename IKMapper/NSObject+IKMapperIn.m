@@ -12,6 +12,7 @@
 #import <IKCore/NSArray+Map.h>
 #import <IKCore/NSObject+Null.h>
 #import "IKMapperProtocols.h"
+#import "IKMapper+Helpers.h"
 
 @implementation NSObject (IKMapperIn)
 +(instancetype)instanceFromDictionary:(NSDictionary *)dictionary {
@@ -23,7 +24,7 @@
     NSDictionary *incomingDictionary = [self incomingDictionary:dictionary];
     
     NSArray *properties = [[[self class] objectIKProperties] filter:^BOOL(IKProperty *property) {
-        return !property.readOnly && property.iVar;
+        return !property.isReadOnly && property.hasiVar;
     }];
     
     [properties enumerateObjectsUsingBlock:^(IKProperty *property, NSUInteger idx, BOOL *stop) {
@@ -31,7 +32,9 @@
         NSString *incomingKey = [self incomingKey:key];
         
         id value = incomingDictionary[incomingKey];
-        id incomingValue = [self incomingValue:value key:incomingKey];
+        id convertedValue = [self convertedValue:value property:property];
+        id incomingValue = [self incomingValue:convertedValue key:incomingKey];
+        
         if (![NSObject nilOrEmpty:incomingValue]) {
             [self mapValue:incomingValue key:incomingKey to:property];
         }
@@ -55,7 +58,7 @@
             }];
         }
         
-    } else if ([value isKindOfClass:[NSDictionary class]] && property.object) {
+    } else if ([value isKindOfClass:[NSDictionary class]] && property.isCustomObject) {
         Class class = property.inferredClass;
         Class incomingClass = [self incomingClass:class value:value key:key];
         
@@ -65,6 +68,36 @@
     }
     
     [self setValue:result forKey:property.name];
+}
+-(id)convertedValue:(id)value property:(IKProperty *)property {
+    /**
+     *  Don't bother with a conversion if:
+     *  -value is nil
+     *  -incoming value is NSNumber and the target property is numeric (KVO will take care of the unboxing)
+     *  -target property type is primitive or undetermined (i.e. 'id')
+     */
+    if ((value == nil) ||
+        ([value normalizedClass] == [NSNumber class] && property.isNumeric) ||
+        ([property.type normalizedClassFromString] == nil)) {
+        return value;
+    }
+    
+    id result = value;
+    NSString *valueClass = NSStringFromClass([result normalizedClass]);
+    NSString *propertyClass = NSStringFromClass([property.type normalizedClassFromString]);
+    if (![valueClass isEqualToString:propertyClass]) {
+        if ([propertyClass isEqualToString:NSStringFromClass([NSString class])]) {
+            /* Anything -> NSString */
+            result = [result toString];
+            
+        } else if ([propertyClass isEqualToString:NSStringFromClass([NSNumber class])] &&
+                   [valueClass isEqualToString:NSStringFromClass([NSString class])]) {
+            /* NSString -> NSNumber */
+            result = [((NSString *)result) toNumber];
+        }
+    }
+    
+    return result;
 }
 
 #pragma mark - Protocol Handlers

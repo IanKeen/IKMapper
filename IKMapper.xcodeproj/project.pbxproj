@@ -19,6 +19,7 @@
 		320DE33C1B6DE198002236D7 /* NSObject+IKMapperOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */; };
 		320DE3E51B6EF2AA002236D7 /* NSString+InflectorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E21B6EF2AA002236D7 /* NSString+InflectorKit.m */; };
 		320DE3E61B6EF2AA002236D7 /* TTTStringInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */; };
+		320DE3E91B6F1653002236D7 /* IKMapper+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E81B6F1653002236D7 /* IKMapper+Helpers.m */; };
 		7B42251B880C73F5103B8923 /* libPods-IKMapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6523BD7EFE92E769438F7872 /* libPods-IKMapper.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		320DE3E21B6EF2AA002236D7 /* NSString+InflectorKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InflectorKit.m"; sourceTree = "<group>"; };
 		320DE3E31B6EF2AA002236D7 /* TTTStringInflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTStringInflector.h; sourceTree = "<group>"; };
 		320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTStringInflector.m; sourceTree = "<group>"; };
+		320DE3E71B6F1653002236D7 /* IKMapper+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IKMapper+Helpers.h"; sourceTree = "<group>"; };
+		320DE3E81B6F1653002236D7 /* IKMapper+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapper+Helpers.m"; sourceTree = "<group>"; };
 		6523BD7EFE92E769438F7872 /* libPods-IKMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3EBFDC66EE17B32AED295F /* Pods-IKMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-IKMapper/Pods-IKMapper.release.xcconfig"; sourceTree = "<group>"; };
 		BCED3B81204FFD8D9581652D /* Pods-IKMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKMapper/Pods-IKMapper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				320DE32D1B6D3BEE002236D7 /* NSObject+IKMapperIn.m */,
 				320DE33A1B6DE198002236D7 /* NSObject+IKMapperOut.h */,
 				320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */,
+				320DE3E71B6F1653002236D7 /* IKMapper+Helpers.h */,
+				320DE3E81B6F1653002236D7 /* IKMapper+Helpers.m */,
 			);
 			path = IKMapper;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 				320DE32A1B6D3605002236D7 /* main.m in Sources */,
 				320DE32E1B6D3BEE002236D7 /* NSObject+IKMapperIn.m in Sources */,
 				320DE33C1B6DE198002236D7 /* NSObject+IKMapperOut.m in Sources */,
+				320DE3E91B6F1653002236D7 /* IKMapper+Helpers.m in Sources */,
 				320DE3251B6D3605002236D7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

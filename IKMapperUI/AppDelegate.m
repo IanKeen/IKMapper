@@ -28,10 +28,12 @@ typedef NS_ENUM(NSInteger, MyEnum) {
 @end
 
 @interface Parent : NSObject
+@property (nonatomic, strong) NSNumber *myNumber;
 @property (nonatomic, assign) CGFloat myFloat;
 @property (nonatomic, strong) NSArray *children;
 @property (nonatomic, readonly) NSInteger blah;
 @property (nonatomic, assign) MyEnum myEnum;
+@property (nonatomic, strong) NSString *rootString;
 @end
 @implementation Parent
 @end
@@ -40,7 +42,7 @@ typedef NS_ENUM(NSInteger, MyEnum) {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     Parent *obj = [Parent new];
-    [obj populateFromDictionary:@{@"myFloat": @6, @"blah": @"blhablha", @"myEnum": @(-1),
+    [obj populateFromDictionary:@{@"myNumber": @"54645", @"rootString": @4567, @"myFloat": @"6.5", @"blah": @"blhablha", @"myEnum": @(-1),
                                   @"children":
                                       @[
   @{@"myString": @"stringy string!", @"someObject": @42, @"boolean": @YES},

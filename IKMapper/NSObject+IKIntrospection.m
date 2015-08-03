@@ -8,6 +8,7 @@
 
 #import "NSObject+IKIntrospection.h"
 #import "NSString+InflectorKit.h"
+#import <IKCore/NSArray+First.h>
 
 @interface IKProperty ()
 @property (nonatomic, strong) NSDictionary *propertyAttributes;
@@ -16,36 +17,46 @@
 @implementation IKProperty
 -(instancetype)initWithProperty:(objc_property_t)property {
     if (!(self = [super init])) { return nil; }
-    _name = @(property_getName(property));
     NSArray *pairs = [@(property_getAttributes(property)) componentsSeparatedByString:@","];
     NSMutableDictionary *attributes = [[NSMutableDictionary alloc] initWithCapacity:[pairs count]];
     for(NSString *pair in pairs) {
         attributes[[pair substringToIndex:1]] = [pair substringFromIndex:1];
     }
     self.propertyAttributes = [NSDictionary dictionaryWithDictionary:attributes];
+    
+    _name = @(property_getName(property));
+    
     return self;
 }
--(BOOL)iVar {
+-(NSString *)type {
+    NSString *type = [[self.propertyAttributes[@"T"]
+                       stringByReplacingOccurrencesOfString:@"\"" withString:@""]
+                       stringByReplacingOccurrencesOfString:@"@" withString:@""];
+    type = ([type isEqualToString:@""] ? @"id" : type);
+    return type;
+}
+-(BOOL)hasiVar {
     return [self.propertyAttributes.allKeys containsObject:@"V"];
 }
--(BOOL)readOnly {
+-(BOOL)isReadOnly {
     return [self.propertyAttributes.allKeys containsObject:@"R"];
 }
--(BOOL)object {
-    NSString *className = [[self.propertyAttributes[@"T"]
-                            stringByReplacingOccurrencesOfString:@"\"" withString:@""]
-                           stringByReplacingOccurrencesOfString:@"@" withString:@""];
-    Class class = NSClassFromString(className);
+-(BOOL)isCustomObject {
+    Class class = NSClassFromString(self.type);
+    if (class == nil) { return NO; }
+    
     BOOL customClass = ([NSBundle bundleForClass:class] == [NSBundle mainBundle]);
     return (customClass && [self.propertyAttributes[@"T"] hasPrefix:@"@"]);
 }
+-(BOOL)isNumeric {
+    NSArray *numericType = @[@"i", @"s", @"l", @"q", @"C", @"I", @"S", @"L", @"Q", @"f", @"d", @"@\"NSNumber\""];
+    return [numericType containsObject:self.propertyAttributes[@"T"]];
+}
 -(Class)inferredClass {
-    NSString *className = [[self.propertyAttributes[@"T"]
-                            stringByReplacingOccurrencesOfString:@"\"" withString:@""]
-                           stringByReplacingOccurrencesOfString:@"@" withString:@""];
-    Class class = NSClassFromString(className);
-    BOOL customClass = ([NSBundle bundleForClass:class] == [NSBundle mainBundle]);
+    Class class = NSClassFromString(self.type);
+    if (class == nil) { return nil; }
     
+    BOOL customClass = ([NSBundle bundleForClass:class] == [NSBundle mainBundle]);
     return (customClass ? class : nil);
 }
 @end
@@ -70,6 +81,22 @@
     free(propertyList);
     return [NSArray arrayWithArray:properties];
 }
+-(Class)normalizedClass {
+    Class class = [[[self class] normalizedClassList] first:^BOOL(Class item) {
+        return [self isKindOfClass:item];
+    }];
+    
+    return (class ?: [self class]);
+}
+
++(NSArray *)normalizedClassList {
+    static dispatch_once_t onceToken;
+    static NSArray *classes = nil;
+    dispatch_once(&onceToken, ^{
+        classes = @[[NSString class], [NSNumber class], [NSDate class], [NSArray class], [NSDictionary class]];
+    });
+    return classes;
+}
 @end
 
 @implementation NSString (IKMapperIntrospection)
@@ -85,5 +112,14 @@
     if (singularPropertyNameClass) { return singularPropertyNameClass; }
     
     return nil;
+}
+-(Class)normalizedClassFromString {
+    Class selfClass = NSClassFromString(self);
+    if (selfClass == nil) { return nil; }
+    
+    Class class = [[[self class] normalizedClassList] first:^BOOL(Class item) {
+        return [selfClass isSubclassOfClass:item];
+    }];
+    return class;
 }
 @end
