@@ -77,7 +77,7 @@
      *  -incoming value is NSNumber and the target property is numeric (KVO will take care of the unboxing)
      *  -target property type is primitive or undetermined (i.e. 'id')
      */
-    if ((value == nil) ||
+    if (([NSObject nilOrEmpty:value]) ||
         ([value normalizedClass] == [NSNumber class] && property.isNumeric) ||
         ([property.type normalizedClassFromString] == nil)) {
         return value;
