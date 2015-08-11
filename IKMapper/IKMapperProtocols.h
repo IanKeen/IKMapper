@@ -20,4 +20,10 @@
 @optional
 -(NSString *)transformOutgoingKey:(NSString *)key;
 -(id)transformOutgoingValue:(id)value key:(NSString *)key;
+-(BOOL)ignoreOutgoingKey:(NSString *)key;
+@end
+
+
+@protocol IKMapperImportProtocol <NSObject>
+-(NSString *)primaryKey;
 @end

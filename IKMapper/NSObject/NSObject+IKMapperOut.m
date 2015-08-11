@@ -12,6 +12,8 @@
 #import <IKCore/NSArray+Filter.h>
 #import <IKCore/NSObject+Null.h>
 #import "IKMapperProtocols.h"
+#import "IKMapper+Shared.h"
+#import <ISO8601/ISO8601.h>
 
 @implementation NSObject (IKMapperOut)
 -(NSDictionary *)toDictionary {
@@ -42,31 +44,18 @@
     if ([outgoingValue isKindOfClass:[NSArray class]]) {
         Class class = [property.name inferredClass];
         if (class) {
-            outgoingValue = [((NSArray *)value) map:^id(id item) {
+            outgoingValue = [((NSArray *)outgoingValue) map:^id(id item) {
                 return [item toDictionary];
             }];
         }
         
     } else if (property.isCustomObject && property.inferredClass != nil) {
         outgoingValue = [outgoingValue toDictionary];
+        
+    } else if ([outgoingValue isKindOfClass:[NSDate class]]) {
+        outgoingValue = [((NSDate *)outgoingValue) ISO8601String];
     }
     
     return outgoingValue;
-}
-
-#pragma mark - Protocol Handlers
--(NSString *)outgoingKey:(NSString *)key {
-    if ([self conformsToProtocol:@protocol(IKMapperOutgoingProtocol)] &&
-        [self respondsToSelector:@selector(transformOutgoingKey:)]) {
-        return [((id<IKMapperOutgoingProtocol>)self) transformOutgoingKey:key];
-    }
-    return key;
-}
--(id)outgoingValue:(id)value key:(NSString *)key {
-    if ([self conformsToProtocol:@protocol(IKMapperOutgoingProtocol)] &&
-        [self respondsToSelector:@selector(transformOutgoingValue:key:)]) {
-        return [((id<IKMapperOutgoingProtocol>)self) transformOutgoingValue:value key:key];
-    }
-    return value;
 }
 @end

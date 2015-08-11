@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		320DE30F1B6D35D0002236D7 /* IKMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE30E1B6D35D0002236D7 /* IKMapperTests.m */; };
+		320DE30F1B6D35D0002236D7 /* IKMapperTests+NSObjectIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE30E1B6D35D0002236D7 /* IKMapperTests+NSObjectIn.m */; };
 		320DE3251B6D3605002236D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE31B1B6D3605002236D7 /* AppDelegate.m */; };
 		320DE3261B6D3605002236D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 320DE31C1B6D3605002236D7 /* LaunchScreen.xib */; };
 		320DE3271B6D3605002236D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320DE31E1B6D3605002236D7 /* Main.storyboard */; };
 		320DE3281B6D3605002236D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320DE3201B6D3605002236D7 /* Images.xcassets */; };
 		320DE32A1B6D3605002236D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3221B6D3605002236D7 /* main.m */; };
 		320DE32B1B6D3605002236D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3241B6D3605002236D7 /* ViewController.m */; };
-		320DE32E1B6D3BEE002236D7 /* NSObject+IKMapperIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE32D1B6D3BEE002236D7 /* NSObject+IKMapperIn.m */; };
-		320DE3311B6D5700002236D7 /* NSObject+IKIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3301B6D5700002236D7 /* NSObject+IKIntrospection.m */; };
-		320DE33C1B6DE198002236D7 /* NSObject+IKMapperOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */; };
 		320DE3E51B6EF2AA002236D7 /* NSString+InflectorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E21B6EF2AA002236D7 /* NSString+InflectorKit.m */; };
 		320DE3E61B6EF2AA002236D7 /* TTTStringInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */; };
-		320DE3E91B6F1653002236D7 /* IKMapper+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 320DE3E81B6F1653002236D7 /* IKMapper+Helpers.m */; };
+		3278C0781B79267000C6045C /* NSObject+IKIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0731B79266F00C6045C /* NSObject+IKIntrospection.m */; };
+		3278C0791B79267000C6045C /* NSObject+IKMapperIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0751B79267000C6045C /* NSObject+IKMapperIn.m */; };
+		3278C07A1B79267000C6045C /* NSObject+IKMapperOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0771B79267000C6045C /* NSObject+IKMapperOut.m */; };
+		3278C07E1B7927A500C6045C /* NSManagedObject+IKMapperIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C07D1B7927A500C6045C /* NSManagedObject+IKMapperIn.m */; };
+		3278C0841B7934A500C6045C /* NSManagedObject+Introspection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0831B7934A500C6045C /* NSManagedObject+Introspection.m */; };
+		3278C0871B7944F600C6045C /* NSManagedObject+IKMapperOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0861B7944F600C6045C /* NSManagedObject+IKMapperOut.m */; };
+		3278C08D1B794ED700C6045C /* IKMapper+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C08A1B794ED700C6045C /* IKMapper+Helpers.m */; };
+		3278C08E1B794ED700C6045C /* IKMapper+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C08C1B794ED700C6045C /* IKMapper+Shared.m */; };
+		3278C0991B79615900C6045C /* TestObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0981B79615900C6045C /* TestObjects.m */; };
+		3278C09B1B79620800C6045C /* IKMapperTests+NSObjectOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C09A1B79620800C6045C /* IKMapperTests+NSObjectOut.m */; };
+		3278C09D1B796FB800C6045C /* IKMapperTests+NSObjectInProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C09C1B796FB800C6045C /* IKMapperTests+NSObjectInProtocol.m */; };
+		3278C09F1B79705700C6045C /* IKMapperTests+NSObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C09E1B79705700C6045C /* IKMapperTests+NSObjectBase.m */; };
+		3278C0A21B7976E000C6045C /* IKMapperTests+NSObjectOutProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0A11B7976E000C6045C /* IKMapperTests+NSObjectOutProtocol.m */; };
+		3278C0A51B798F3E00C6045C /* NSManagedObject+IKMapperImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278C0A41B798F3E00C6045C /* NSManagedObject+IKMapperImport.m */; };
 		7B42251B880C73F5103B8923 /* libPods-IKMapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6523BD7EFE92E769438F7872 /* libPods-IKMapper.a */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +47,7 @@
 		320DE2EF1B6D35D0002236D7 /* IKMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		320DE3081B6D35D0002236D7 /* IKMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		320DE30D1B6D35D0002236D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		320DE30E1B6D35D0002236D7 /* IKMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKMapperTests.m; sourceTree = "<group>"; };
+		320DE30E1B6D35D0002236D7 /* IKMapperTests+NSObjectIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IKMapperTests+NSObjectIn.m"; sourceTree = "<group>"; };
 		320DE31A1B6D3605002236D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		320DE31B1B6D3605002236D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		320DE31D1B6D3605002236D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,19 +57,38 @@
 		320DE3221B6D3605002236D7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		320DE3231B6D3605002236D7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		320DE3241B6D3605002236D7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		320DE32C1B6D3BEE002236D7 /* NSObject+IKMapperIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKMapperIn.h"; sourceTree = "<group>"; };
-		320DE32D1B6D3BEE002236D7 /* NSObject+IKMapperIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKMapperIn.m"; sourceTree = "<group>"; };
-		320DE32F1B6D5700002236D7 /* NSObject+IKIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKIntrospection.h"; sourceTree = "<group>"; };
-		320DE3301B6D5700002236D7 /* NSObject+IKIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKIntrospection.m"; sourceTree = "<group>"; };
 		320DE3321B6D7FA2002236D7 /* IKMapperProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKMapperProtocols.h; sourceTree = "<group>"; };
-		320DE33A1B6DE198002236D7 /* NSObject+IKMapperOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKMapperOut.h"; sourceTree = "<group>"; };
-		320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKMapperOut.m"; sourceTree = "<group>"; };
 		320DE3E11B6EF2AA002236D7 /* NSString+InflectorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InflectorKit.h"; sourceTree = "<group>"; };
 		320DE3E21B6EF2AA002236D7 /* NSString+InflectorKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InflectorKit.m"; sourceTree = "<group>"; };
 		320DE3E31B6EF2AA002236D7 /* TTTStringInflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTStringInflector.h; sourceTree = "<group>"; };
 		320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTStringInflector.m; sourceTree = "<group>"; };
-		320DE3E71B6F1653002236D7 /* IKMapper+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IKMapper+Helpers.h"; sourceTree = "<group>"; };
-		320DE3E81B6F1653002236D7 /* IKMapper+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapper+Helpers.m"; sourceTree = "<group>"; };
+		3278C0721B79266F00C6045C /* NSObject+IKIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKIntrospection.h"; sourceTree = "<group>"; };
+		3278C0731B79266F00C6045C /* NSObject+IKIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKIntrospection.m"; sourceTree = "<group>"; };
+		3278C0741B79266F00C6045C /* NSObject+IKMapperIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKMapperIn.h"; sourceTree = "<group>"; };
+		3278C0751B79267000C6045C /* NSObject+IKMapperIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKMapperIn.m"; sourceTree = "<group>"; };
+		3278C0761B79267000C6045C /* NSObject+IKMapperOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKMapperOut.h"; sourceTree = "<group>"; };
+		3278C0771B79267000C6045C /* NSObject+IKMapperOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IKMapperOut.m"; sourceTree = "<group>"; };
+		3278C07C1B7927A500C6045C /* NSManagedObject+IKMapperIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+IKMapperIn.h"; sourceTree = "<group>"; };
+		3278C07D1B7927A500C6045C /* NSManagedObject+IKMapperIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+IKMapperIn.m"; sourceTree = "<group>"; };
+		3278C0821B7934A500C6045C /* NSManagedObject+Introspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Introspection.h"; sourceTree = "<group>"; };
+		3278C0831B7934A500C6045C /* NSManagedObject+Introspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Introspection.m"; sourceTree = "<group>"; };
+		3278C0851B7944F600C6045C /* NSManagedObject+IKMapperOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+IKMapperOut.h"; sourceTree = "<group>"; };
+		3278C0861B7944F600C6045C /* NSManagedObject+IKMapperOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+IKMapperOut.m"; sourceTree = "<group>"; };
+		3278C0891B794ED700C6045C /* IKMapper+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IKMapper+Helpers.h"; sourceTree = "<group>"; };
+		3278C08A1B794ED700C6045C /* IKMapper+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapper+Helpers.m"; sourceTree = "<group>"; };
+		3278C08B1B794ED700C6045C /* IKMapper+Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IKMapper+Shared.h"; sourceTree = "<group>"; };
+		3278C08C1B794ED700C6045C /* IKMapper+Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapper+Shared.m"; sourceTree = "<group>"; };
+		3278C08F1B794FD900C6045C /* NSObject+IKMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IKMapper.h"; sourceTree = "<group>"; };
+		3278C0901B794FFD00C6045C /* NSManagedObject+IKMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+IKMapper.h"; sourceTree = "<group>"; };
+		3278C0971B79615900C6045C /* TestObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjects.h; sourceTree = "<group>"; };
+		3278C0981B79615900C6045C /* TestObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjects.m; sourceTree = "<group>"; };
+		3278C09A1B79620800C6045C /* IKMapperTests+NSObjectOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapperTests+NSObjectOut.m"; sourceTree = "<group>"; };
+		3278C09C1B796FB800C6045C /* IKMapperTests+NSObjectInProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapperTests+NSObjectInProtocol.m"; sourceTree = "<group>"; };
+		3278C09E1B79705700C6045C /* IKMapperTests+NSObjectBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapperTests+NSObjectBase.m"; sourceTree = "<group>"; };
+		3278C0A01B7972B800C6045C /* IKMapperTests+NSObjectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IKMapperTests+NSObjectBase.h"; sourceTree = "<group>"; };
+		3278C0A11B7976E000C6045C /* IKMapperTests+NSObjectOutProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IKMapperTests+NSObjectOutProtocol.m"; sourceTree = "<group>"; };
+		3278C0A31B798F3E00C6045C /* NSManagedObject+IKMapperImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+IKMapperImport.h"; sourceTree = "<group>"; };
+		3278C0A41B798F3E00C6045C /* NSManagedObject+IKMapperImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+IKMapperImport.m"; sourceTree = "<group>"; };
 		6523BD7EFE92E769438F7872 /* libPods-IKMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKMapper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3EBFDC66EE17B32AED295F /* Pods-IKMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-IKMapper/Pods-IKMapper.release.xcconfig"; sourceTree = "<group>"; };
 		BCED3B81204FFD8D9581652D /* Pods-IKMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKMapper/Pods-IKMapper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,8 +137,15 @@
 		320DE30B1B6D35D0002236D7 /* IKMapperTests */ = {
 			isa = PBXGroup;
 			children = (
-				320DE30E1B6D35D0002236D7 /* IKMapperTests.m */,
+				3278C0A01B7972B800C6045C /* IKMapperTests+NSObjectBase.h */,
+				3278C09E1B79705700C6045C /* IKMapperTests+NSObjectBase.m */,
+				320DE30E1B6D35D0002236D7 /* IKMapperTests+NSObjectIn.m */,
+				3278C09C1B796FB800C6045C /* IKMapperTests+NSObjectInProtocol.m */,
+				3278C09A1B79620800C6045C /* IKMapperTests+NSObjectOut.m */,
+				3278C0A11B7976E000C6045C /* IKMapperTests+NSObjectOutProtocol.m */,
 				320DE30C1B6D35D0002236D7 /* Supporting Files */,
+				3278C0971B79615900C6045C /* TestObjects.h */,
+				3278C0981B79615900C6045C /* TestObjects.m */,
 			);
 			path = IKMapperTests;
 			sourceTree = "<group>";
@@ -125,16 +161,13 @@
 		320DE3181B6D3605002236D7 /* IKMapper */ = {
 			isa = PBXGroup;
 			children = (
+				3278C07B1B79268E00C6045C /* NSManagedObject */,
+				3278C0711B79266F00C6045C /* NSObject */,
+				3278C0881B794ED700C6045C /* Shared */,
 				320DE3E01B6EF2AA002236D7 /* Vendor */,
 				320DE3321B6D7FA2002236D7 /* IKMapperProtocols.h */,
-				320DE32F1B6D5700002236D7 /* NSObject+IKIntrospection.h */,
-				320DE3301B6D5700002236D7 /* NSObject+IKIntrospection.m */,
-				320DE32C1B6D3BEE002236D7 /* NSObject+IKMapperIn.h */,
-				320DE32D1B6D3BEE002236D7 /* NSObject+IKMapperIn.m */,
-				320DE33A1B6DE198002236D7 /* NSObject+IKMapperOut.h */,
-				320DE33B1B6DE198002236D7 /* NSObject+IKMapperOut.m */,
-				320DE3E71B6F1653002236D7 /* IKMapper+Helpers.h */,
-				320DE3E81B6F1653002236D7 /* IKMapper+Helpers.m */,
+				3278C08F1B794FD900C6045C /* NSObject+IKMapper.h */,
+				3278C0901B794FFD00C6045C /* NSManagedObject+IKMapper.h */,
 			);
 			path = IKMapper;
 			sourceTree = "<group>";
@@ -164,6 +197,45 @@
 				320DE3E41B6EF2AA002236D7 /* TTTStringInflector.m */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3278C0711B79266F00C6045C /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				3278C0721B79266F00C6045C /* NSObject+IKIntrospection.h */,
+				3278C0731B79266F00C6045C /* NSObject+IKIntrospection.m */,
+				3278C0741B79266F00C6045C /* NSObject+IKMapperIn.h */,
+				3278C0751B79267000C6045C /* NSObject+IKMapperIn.m */,
+				3278C0761B79267000C6045C /* NSObject+IKMapperOut.h */,
+				3278C0771B79267000C6045C /* NSObject+IKMapperOut.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		3278C07B1B79268E00C6045C /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				3278C0821B7934A500C6045C /* NSManagedObject+Introspection.h */,
+				3278C0831B7934A500C6045C /* NSManagedObject+Introspection.m */,
+				3278C07C1B7927A500C6045C /* NSManagedObject+IKMapperIn.h */,
+				3278C07D1B7927A500C6045C /* NSManagedObject+IKMapperIn.m */,
+				3278C0851B7944F600C6045C /* NSManagedObject+IKMapperOut.h */,
+				3278C0861B7944F600C6045C /* NSManagedObject+IKMapperOut.m */,
+				3278C0A31B798F3E00C6045C /* NSManagedObject+IKMapperImport.h */,
+				3278C0A41B798F3E00C6045C /* NSManagedObject+IKMapperImport.m */,
+			);
+			path = NSManagedObject;
+			sourceTree = "<group>";
+		};
+		3278C0881B794ED700C6045C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3278C0891B794ED700C6045C /* IKMapper+Helpers.h */,
+				3278C08A1B794ED700C6045C /* IKMapper+Helpers.m */,
+				3278C08B1B794ED700C6045C /* IKMapper+Shared.h */,
+				3278C08C1B794ED700C6045C /* IKMapper+Shared.m */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		34F6C75993488A1281FFEDF1 /* Pods */ = {
@@ -319,13 +391,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				320DE3E61B6EF2AA002236D7 /* TTTStringInflector.m in Sources */,
+				3278C07E1B7927A500C6045C /* NSManagedObject+IKMapperIn.m in Sources */,
+				3278C0841B7934A500C6045C /* NSManagedObject+Introspection.m in Sources */,
 				320DE3E51B6EF2AA002236D7 /* NSString+InflectorKit.m in Sources */,
-				320DE3311B6D5700002236D7 /* NSObject+IKIntrospection.m in Sources */,
+				3278C0991B79615900C6045C /* TestObjects.m in Sources */,
+				3278C08D1B794ED700C6045C /* IKMapper+Helpers.m in Sources */,
 				320DE32B1B6D3605002236D7 /* ViewController.m in Sources */,
 				320DE32A1B6D3605002236D7 /* main.m in Sources */,
-				320DE32E1B6D3BEE002236D7 /* NSObject+IKMapperIn.m in Sources */,
-				320DE33C1B6DE198002236D7 /* NSObject+IKMapperOut.m in Sources */,
-				320DE3E91B6F1653002236D7 /* IKMapper+Helpers.m in Sources */,
+				3278C0871B7944F600C6045C /* NSManagedObject+IKMapperOut.m in Sources */,
+				3278C0791B79267000C6045C /* NSObject+IKMapperIn.m in Sources */,
+				3278C0781B79267000C6045C /* NSObject+IKIntrospection.m in Sources */,
+				3278C07A1B79267000C6045C /* NSObject+IKMapperOut.m in Sources */,
+				3278C0A51B798F3E00C6045C /* NSManagedObject+IKMapperImport.m in Sources */,
+				3278C08E1B794ED700C6045C /* IKMapper+Shared.m in Sources */,
 				320DE3251B6D3605002236D7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +412,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320DE30F1B6D35D0002236D7 /* IKMapperTests.m in Sources */,
+				3278C0A21B7976E000C6045C /* IKMapperTests+NSObjectOutProtocol.m in Sources */,
+				3278C09D1B796FB800C6045C /* IKMapperTests+NSObjectInProtocol.m in Sources */,
+				3278C09F1B79705700C6045C /* IKMapperTests+NSObjectBase.m in Sources */,
+				320DE30F1B6D35D0002236D7 /* IKMapperTests+NSObjectIn.m in Sources */,
+				3278C09B1B79620800C6045C /* IKMapperTests+NSObjectOut.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
