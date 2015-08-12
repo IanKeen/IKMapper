@@ -62,7 +62,7 @@
             }];
         }
         
-    } else if ([value isKindOfClass:[NSDictionary class]] && property.isCustomObject) {
+    } else if ([value isKindOfClass:[NSDictionary class]] && (property.isCustomObject || [property.type isEqualToString:@"id"])) {
         Class class = property.inferredClass;
         Class incomingClass = [self incomingClass:class value:value key:key];
         
