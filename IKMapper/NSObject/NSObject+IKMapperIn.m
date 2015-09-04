@@ -51,16 +51,16 @@
     
     if ([value isKindOfClass:[NSArray class]]) {
         Class class = [property.name inferredClass];
-        Class incomingClass = [self incomingClass:class value:value key:key];
         
-        if (incomingClass != nil) {
-            result = [((NSArray *)value) map:^id(NSDictionary *item) {
-                if ([item isKindOfClass:[NSDictionary class]]) {
-                    return [incomingClass instanceFromDictionary:item];
-                }
-                return nil;
-            }];
-        }
+        result = [((NSArray *)value) map:^id(NSDictionary *item) {
+            if ([item isKindOfClass:[NSDictionary class]]) {
+                Class incomingClass = [self incomingClass:class value:item key:key];
+                if (incomingClass == nil) { return nil; }
+                
+                return [incomingClass instanceFromDictionary:item];
+            }
+            return nil;
+        }];
         
     } else if ([value isKindOfClass:[NSDictionary class]] && (property.isCustomObject || [property.type isEqualToString:@"id"])) {
         Class class = property.inferredClass;
