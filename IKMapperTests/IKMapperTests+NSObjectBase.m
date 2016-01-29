@@ -108,7 +108,7 @@
     return object;
 }
 -(NSDictionary *)expectedDictionary {
-    NSString *dateString = @"2015-08-28T05:30:10-07:00";
+    NSString *dateString = @"2015-08-28T05:30:10-08:00";
     
     return @{
              @"string_Value": @"string",
