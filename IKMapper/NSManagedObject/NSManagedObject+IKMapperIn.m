@@ -23,7 +23,7 @@
     NSDictionary *incomingDictionary = [self incomingDictionary:dictionary];
     
     [self populateAttributes:incomingDictionary];
-    
+    [self populateRelationships:incomingDictionary];
 }
 
 #pragma mark - Private
