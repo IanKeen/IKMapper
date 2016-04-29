@@ -17,6 +17,8 @@ typedef NS_ENUM(NSUInteger, TestEnum) {
 @class Child;
 @interface Parent : NSObject
 @property (nonatomic, copy) NSString *string_Value;
+@property (nonatomic, copy) NSString *string_Value2;
+@property (nonatomic, copy) NSString *string_Value3;
 @property (nonatomic, copy) NSNumber *number_Value;
 @property (nonatomic, copy) NSDate *stringDate_Value;
 @property (nonatomic, copy) NSDate *numberDate_Value;

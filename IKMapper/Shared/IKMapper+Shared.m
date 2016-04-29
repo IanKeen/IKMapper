@@ -68,7 +68,7 @@
      *  -incoming value is NSNumber and the target property is numeric (KVO will take care of the unboxing)
      *  -target property type is primitive or undetermined (i.e. 'id')
      */
-    if (([NSObject nilOrEmpty:value]) ||
+    if (([NSObject isNil:value]) ||
         (fromClass == [NSNumber class] && numeric) ||
         (toClass == nil)) {
         return value;

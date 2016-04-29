@@ -39,7 +39,7 @@
                                                 to:[attribute normalizedAttributeClass]
                                            numeric:[attribute isNumeric]];
         
-        if (![NSObject nilOrEmpty:convertedValue]) {
+        if (![NSObject isNil:convertedValue]) {
             [self setValue:convertedValue forKey:modelKey];
         }
     }];

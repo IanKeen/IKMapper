@@ -40,6 +40,8 @@
     ProtocolParentOut *object = [ProtocolParentOut new];
     
     object.string_Value = @"string";
+    object.string_Value2 = nil;
+    object.string_Value3 = @"";
     object.number_Value = @40;
     object.stringDate_Value = date;
     object.numberDate_Value = date;

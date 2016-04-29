@@ -39,7 +39,7 @@
                                                 to:[property.type normalizedClassFromString]
                                            numeric:property.isNumeric];
         
-        if (![NSObject nilOrEmpty:convertedValue]) {
+        if (![NSObject isNil:convertedValue]) {
             [self mapValue:convertedValue key:incomingKey to:property];
         }
     }];

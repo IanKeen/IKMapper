@@ -12,9 +12,11 @@
 -(NSDictionary *)parentDictionary {
     return @{
              @"string_Value": @"parent",
+             @"string_Value2": [NSNull null],
+             @"string_Value3": @"",
              @"number_Value": @10,
-             @"stringDate_Value": @"2015-08-28T12:30:10+00:00", //August 28, 2015 @ 12:30pm (UTC) - IOS8601
-             @"numberDate_Value": @1440765010, //August 28, 2015 @ 12:30pm (UTC) - Unix timestamp
+             @"stringDate_Value": [self dateString],
+             @"numberDate_Value": [self dateNumber],
              @"integer_Value": @"50",
              @"bool_Value": @YES,
              @"float_Value": @(0.5),
@@ -28,8 +30,8 @@
     return @{
              @"string_Value": @"child",
              @"number_Value": @20,
-             @"stringDate_Value": @"2015-08-28T12:30:10+00:00", //August 28, 2015 @ 12:30pm (UTC) - IOS8601
-             @"numberDate_Value": @1440765010, //August 28, 2015 @ 12:30pm (UTC) - Unix timestamp
+             @"stringDate_Value": [self dateString],
+             @"numberDate_Value": [self dateNumber],
              @"integer_Value": @"100",
              @"bool_Value": @NO,
              @"float_Value": @(5.5),
@@ -38,8 +40,8 @@
              @"child_Value": @{
                      @"string_Value": @"child_child",
                      @"number_Value": @80,
-                     @"stringDate_Value": @"2015-08-28T12:30:10+00:00", //August 28, 2015 @ 12:30pm (UTC) - IOS8601
-                     @"numberDate_Value": @1440765010, //August 28, 2015 @ 12:30pm (UTC) - Unix timestamp
+                     @"stringDate_Value": [self dateString],
+                     @"numberDate_Value": [self dateNumber],
                      @"integer_Value": @"500",
                      @"bool_Value": @NO,
                      @"float_Value": @(55.5),
@@ -50,7 +52,7 @@
 }
 -(NSDate *)date {
     NSDateComponents *components = [NSDateComponents new];
-    components.timeZone = [NSTimeZone timeZoneWithName:@"UTC"];
+    components.timeZone = [NSTimeZone localTimeZone];
     components.year = 2015;
     components.month = 8;
     components.day = 28;
@@ -60,12 +62,20 @@
     NSDate *date = [[NSCalendar currentCalendar] dateFromComponents:components];
     return date;
 }
+-(NSString *)dateString {
+    return @"2015-08-28T12:30:10+10:00"; 
+}
+-(NSNumber *)dateNumber {
+    return @(1440765010 - (60 * 60 * 10)) ;
+}
 
 -(Parent *)parentObject {
     NSDate *date = [self date];
     Parent *object = [Parent new];
     
     object.string_Value = @"string";
+    object.string_Value2 = nil;
+    object.string_Value3 = @"";
     object.number_Value = @40;
     object.stringDate_Value = date;
     object.numberDate_Value = date;
@@ -108,13 +118,12 @@
     return object;
 }
 -(NSDictionary *)expectedDictionary {
-    NSString *dateString = @"2015-08-28T05:30:10-08:00";
-    
     return @{
              @"string_Value": @"string",
+             @"string_Value3": @"",
              @"number_Value": @40,
-             @"stringDate_Value": dateString,
-             @"numberDate_Value": dateString,
+             @"stringDate_Value": [self dateString],
+             @"numberDate_Value": [self dateString],
              @"integer_Value": @(60),
              @"bool_Value": @(YES),
              @"float_Value": @(0.5),
@@ -123,8 +132,8 @@
              @"child_Value": @{
                      @"string_Value": @"child",
                      @"number_Value": @60,
-                     @"stringDate_Value": dateString,
-                     @"numberDate_Value": dateString,
+                     @"stringDate_Value": [self dateString],
+                     @"numberDate_Value": [self dateString],
                      @"integer_Value": @(80),
                      @"bool_Value": @(NO),
                      @"float_Value": @(10.5),
@@ -133,8 +142,8 @@
                      @"child_Value": @{
                              @"string_Value": @"child_child",
                              @"number_Value": @120,
-                             @"stringDate_Value": dateString,
-                             @"numberDate_Value": dateString,
+                             @"stringDate_Value": [self dateString],
+                             @"numberDate_Value": [self dateString],
                              @"integer_Value": @(160),
                              @"bool_Value": @(YES),
                              @"float_Value": @(105.5),
@@ -146,8 +155,8 @@
                      @{
                          @"string_Value": @"child",
                          @"number_Value": @60,
-                         @"stringDate_Value": dateString,
-                         @"numberDate_Value": dateString,
+                         @"stringDate_Value": [self dateString],
+                         @"numberDate_Value": [self dateString],
                          @"integer_Value": @(80),
                          @"bool_Value": @(NO),
                          @"float_Value": @(10.5),
@@ -156,8 +165,8 @@
                          @"child_Value": @{
                                  @"string_Value": @"child_child",
                                  @"number_Value": @120,
-                                 @"stringDate_Value": dateString,
-                                 @"numberDate_Value": dateString,
+                                 @"stringDate_Value": [self dateString],
+                                 @"numberDate_Value": [self dateString],
                                  @"integer_Value": @(160),
                                  @"bool_Value": @(YES),
                                  @"float_Value": @(105.5),
@@ -168,8 +177,8 @@
                      @{
                          @"string_Value": @"child",
                          @"number_Value": @60,
-                         @"stringDate_Value": dateString,
-                         @"numberDate_Value": dateString,
+                         @"stringDate_Value": [self dateString],
+                         @"numberDate_Value": [self dateString],
                          @"integer_Value": @(80),
                          @"bool_Value": @(NO),
                          @"float_Value": @(10.5),
@@ -178,8 +187,8 @@
                          @"child_Value": @{
                                  @"string_Value": @"child_child",
                                  @"number_Value": @120,
-                                 @"stringDate_Value": dateString,
-                                 @"numberDate_Value": dateString,
+                                 @"stringDate_Value": [self dateString],
+                                 @"numberDate_Value": [self dateString],
                                  @"integer_Value": @(160),
                                  @"bool_Value": @(YES),
                                  @"float_Value": @(105.5),

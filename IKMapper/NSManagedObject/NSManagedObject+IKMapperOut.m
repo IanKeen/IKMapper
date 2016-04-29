@@ -26,9 +26,9 @@
     __block NSMutableDictionary *result = [NSMutableDictionary dictionary];
     [[[self entity] attributesByName] enumerateKeysAndObjectsUsingBlock:^(NSString *modelKey, NSAttributeDescription *attribute, BOOL *stop) {
         NSString *outgoingKey = [self outgoingKey:modelKey];
-        if (![NSObject nilOrEmpty:outgoingKey]) {
+        if (![NSObject isNil:outgoingKey]) {
             id value = [self valueFromProperty:attribute key:outgoingKey];
-            if (![NSObject nilOrEmpty:value]) {
+            if (![NSObject isNil:value]) {
                 result[outgoingKey] = value;
             }
         }
@@ -47,7 +47,7 @@
             
         } else {
             NSManagedObject *object = [self valueForKey:relationshipKey];
-            if (![NSObject nilOrEmpty:object] && [object isKindOfClass:[NSManagedObject class]]) {
+            if (![NSObject isNil:object] && [object isKindOfClass:[NSManagedObject class]]) {
                 result[relationshipKey] = [object toDictionary];
             }
         }
