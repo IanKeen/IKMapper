@@ -20,6 +20,15 @@
  */
 extern BOOL nilOrEmpty(id object);
 
+/**
+ *  Determine if an object is nil or is NSNull
+ *
+ *  @param object Object to test;
+ *
+ *  @return YES if the object is nil otherwise NO
+ */
+extern BOOL isNil(id object);
+
 @interface NSObject (NilOrEmpty)
 /**
  *  Determine not only if an object is nil, but also if it is empty
@@ -33,4 +42,13 @@ extern BOOL nilOrEmpty(id object);
  *  @return YES if the object is nil/emtpy otherwise NO
  */
 +(BOOL)nilOrEmpty:(id)object;
+
+/**
+ *  Determine if an object is nil or is NSNull
+ *
+ *  @param object Object to test;
+ *
+ *  @return YES if the object is nil otherwise NO
+ */
++(BOOL)isNil:(id)object;
 @end

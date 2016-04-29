@@ -17,7 +17,7 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 @property (nonatomic, assign) SCNetworkReachabilityFlags previousReachabilityFlags;
 @property (nonatomic, strong) dispatch_source_t dispatch_timer;
 @property (nonatomic, strong) dispatch_queue_t timer_queue;
-
+@property (nonatomic, assign) BOOL hasPreviousReachability;
 @end
 
 @implementation Reachability
@@ -29,10 +29,10 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 -(instancetype)initWithReachabilityRef:(SCNetworkReachabilityRef)reachabilityRef {
     if (!(self = [super init])) { return nil; }
     
-    #ifdef IKEVENTS
+#ifdef IKEVENTS
     _didBecomeReachable = [IKEvent new];
     _didBecomeUnreachable = [IKEvent new];
-    #endif
+#endif
     
     self.reachabilityRef = reachabilityRef;
     self.timer_queue = dispatch_queue_create("uk.co.joylordsystems.reachability_timer_queue", nil);
@@ -69,6 +69,8 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 
 #pragma mark - Timer
 -(BOOL)startNotifier {
+    if (self.reachabilityObject != nil) { return YES; }
+    
     self.reachabilityObject = self;
     [self timerFired]; //send out an initial event
     
@@ -84,6 +86,8 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
     return YES;
 }
 -(void)stopNotifier {
+    if (self.reachabilityObject == nil) { return; }
+    
     self.reachabilityObject = nil;
     if (self.dispatch_timer) {
         dispatch_source_cancel(self.dispatch_timer);
@@ -92,10 +96,12 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 }
 -(void)timerFired {
     SCNetworkReachabilityFlags currentReachabilityFlags = [self reachabilityFlags];
-    if (currentReachabilityFlags != self.previousReachabilityFlags) {
+    if (!self.hasPreviousReachability || currentReachabilityFlags != self.previousReachabilityFlags) {
+        self.previousReachabilityFlags = currentReachabilityFlags;
+        self.hasPreviousReachability = YES;
+        
         dispatch_async(dispatch_get_main_queue(), ^{
             [self reachabilityChanged:currentReachabilityFlags];
-            self.previousReachabilityFlags = currentReachabilityFlags;
         });
     }
 }
@@ -151,7 +157,7 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 #pragma mark - Private
 -(NSString *)stringFromNetworkStatus:(NetworkStatus)status {
     NSDictionary *mapping =
-      @{@(NetworkStatusNotReachable): @"No Connection",
+    @{@(NetworkStatusNotReachable): @"No Connection",
       @(NetworkStatusReachableViaWiFi): @"WiFi",
       @(NetworkStatusReachableViaWWAN): @"Cellular"};
     
@@ -167,15 +173,15 @@ NSString * ReachabilityChangedNotification = @"ReachabilityChangedNotification";
 
 -(void)reachabilityChanged:(SCNetworkReachabilityFlags)flags {
     if ([self isReachableWithFlags:flags]) {
-        #ifdef IKEVENTS
+#ifdef IKEVENTS
         notify(self.didBecomeReachable);
-        #endif
+#endif
         if (self.whenReachable) { self.whenReachable(self); }
-
+        
     } else {
-        #ifdef IKEVENTS
+#ifdef IKEVENTS
         notify(self.didBecomeUnreachable);
-        #endif
+#endif
         if (self.whenUnreachable) { self.whenUnreachable(self); }
     }
     
